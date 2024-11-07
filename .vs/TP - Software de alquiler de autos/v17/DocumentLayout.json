@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\dal\\rentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|solutionrelative:dal\\rentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\dal\\insurancedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|solutionrelative:dal\\insurancedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\dal\\clientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|solutionrelative:dal\\clientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\dal\\cardata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|solutionrelative:dal\\cardata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\bll\\rentbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|solutionrelative:bll\\rentbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\bll\\insurancebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|solutionrelative:bll\\insurancebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\bll\\clientbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|solutionrelative:bll\\clientbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\bll\\carbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|solutionrelative:bll\\carbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\entity\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|solutionrelative:entity\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\entity\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|solutionrelative:entity\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\entity\\insurance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|solutionrelative:entity\\insurance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\entity\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|solutionrelative:entity\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\UI\\Form1.cs [Design]",
+              "RelativeToolTip": "UI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:29:24.823Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RentData.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\DAL\\RentData.cs",
+              "RelativeDocumentMoniker": "DAL\\RentData.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\DAL\\RentData.cs",
+              "RelativeToolTip": "DAL\\RentData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:45:10.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InsuranceData.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\DAL\\InsuranceData.cs",
+              "RelativeDocumentMoniker": "DAL\\InsuranceData.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\DAL\\InsuranceData.cs",
+              "RelativeToolTip": "DAL\\InsuranceData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:44:42.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientData.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\DAL\\ClientData.cs",
+              "RelativeDocumentMoniker": "DAL\\ClientData.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\DAL\\ClientData.cs",
+              "RelativeToolTip": "DAL\\ClientData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:44:24.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarData.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\DAL\\CarData.cs",
+              "RelativeDocumentMoniker": "DAL\\CarData.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\DAL\\CarData.cs",
+              "RelativeToolTip": "DAL\\CarData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:43:11.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RentBusiness.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\RentBusiness.cs",
+              "RelativeDocumentMoniker": "BLL\\RentBusiness.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\RentBusiness.cs",
+              "RelativeToolTip": "BLL\\RentBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:42:48.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InsuranceBusiness.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\InsuranceBusiness.cs",
+              "RelativeDocumentMoniker": "BLL\\InsuranceBusiness.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\InsuranceBusiness.cs",
+              "RelativeToolTip": "BLL\\InsuranceBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:42:21.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientBusiness.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\ClientBusiness.cs",
+              "RelativeDocumentMoniker": "BLL\\ClientBusiness.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\ClientBusiness.cs",
+              "RelativeToolTip": "BLL\\ClientBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:42:06.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarBusiness.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\CarBusiness.cs",
+              "RelativeDocumentMoniker": "BLL\\CarBusiness.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\CarBusiness.cs",
+              "RelativeToolTip": "BLL\\CarBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:41:51.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\Car.cs",
+              "RelativeDocumentMoniker": "Entity\\Car.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\Car.cs",
+              "RelativeToolTip": "Entity\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:39:53.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Rent.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\Rent.cs",
+              "RelativeDocumentMoniker": "Entity\\Rent.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\Rent.cs",
+              "RelativeToolTip": "Entity\\Rent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:37:16.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Insurance.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\Insurance.cs",
+              "RelativeDocumentMoniker": "Entity\\Insurance.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\Insurance.cs",
+              "RelativeToolTip": "Entity\\Insurance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:35:53.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\Client.cs",
+              "RelativeDocumentMoniker": "Entity\\Client.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\Client.cs",
+              "RelativeToolTip": "Entity\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:32:58.771Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

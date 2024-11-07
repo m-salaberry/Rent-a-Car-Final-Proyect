@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\tp desarrollo y arquitectura de software\\tp - software de alquiler de autos\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\UI\\Form1.cs [Design]",
+              "RelativeToolTip": "UI\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:29:24.823Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
