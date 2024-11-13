@@ -10,3 +10,15 @@ D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - So
 D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\Entity\obj\Debug\net8.0-windows\refint\Entity.dll
 D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\Entity\obj\Debug\net8.0-windows\Entity.pdb
 D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\Entity\obj\Debug\net8.0-windows\ref\Entity.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\bin\Debug\net8.0-windows\Entity.deps.json
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\bin\Debug\net8.0-windows\Entity.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\bin\Debug\net8.0-windows\Entity.pdb
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.AssemblyInfoInputs.cache
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.AssemblyInfo.cs
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.csproj.CoreCompileInputs.cache
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.sourcelink.json
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\refint\Entity.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.pdb
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\ref\Entity.dll

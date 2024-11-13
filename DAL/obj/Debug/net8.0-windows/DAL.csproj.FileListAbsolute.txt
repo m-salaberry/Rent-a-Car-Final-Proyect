@@ -10,3 +10,23 @@ D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - So
 D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\obj\Debug\net8.0-windows\refint\DAL.dll
 D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\obj\Debug\net8.0-windows\DAL.pdb
 D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\obj\Debug\net8.0-windows\ref\DAL.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.csproj.AssemblyReference.cache
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.AssemblyInfoInputs.cache
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.AssemblyInfo.cs
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.csproj.CoreCompileInputs.cache
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.sourcelink.json
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\refint\DAL.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.pdb
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\DAL.deps.json
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\DAL.runtimeconfig.json
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\DAL.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\DAL.pdb
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\Entity.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\Mapper.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\Entity.pdb
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\Mapper.pdb
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.csproj.Up2Date
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.genruntimeconfig.cache
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\ref\DAL.dll

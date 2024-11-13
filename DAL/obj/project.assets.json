@@ -1526,6 +1526,22 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
+      },
+      "Mapper/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Mapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mapper.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
       }
     }
   },
@@ -4534,11 +4550,17 @@
       "type": "project",
       "path": "../Entity/Entity.csproj",
       "msbuildProject": "../Entity/Entity.csproj"
+    },
+    "Mapper/1.0.0": {
+      "type": "project",
+      "path": "../Mapper/Mapper.csproj",
+      "msbuildProject": "../Mapper/Mapper.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Entity >= 1.0.0",
+      "Mapper >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Relational >= 9.0.0",
@@ -4554,11 +4576,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\DAL\\DAL.csproj",
+      "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
-      "outputPath": "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\DAL\\obj\\",
+      "outputPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programas\\Visual Studio Shared\\NuGetPackages"
@@ -4580,8 +4602,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\Entity.csproj": {
-              "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\Entity.csproj"
+            "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+              "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+            },
+            "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj": {
+              "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj"
             }
           }
         }

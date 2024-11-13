@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\Entity.csproj",
+      "projectUniqueName": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\Entity.csproj",
+      "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
-      "outputPath": "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\Entity\\obj\\",
+      "outputPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programas\\Visual Studio Shared\\NuGetPackages"

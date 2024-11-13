@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\BLL.csproj": {}
+    "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\BLL.csproj": {
+    "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\BLL.csproj",
+        "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
-        "outputPath": "D:\\Facultad\\2do Año\\2do Cuatri\\TP Desarrollo y arquitectura de software\\TP - Software de alquiler de autos\\BLL\\obj\\",
+        "outputPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Programas\\Visual Studio Shared\\NuGetPackages"
