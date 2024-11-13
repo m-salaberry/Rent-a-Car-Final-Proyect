@@ -1,0 +1,12 @@
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\bin\Debug\net8.0-windows\DAL.deps.json
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\bin\Debug\net8.0-windows\DAL.dll
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\bin\Debug\net8.0-windows\DAL.pdb
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\obj\Debug\net8.0-windows\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\obj\Debug\net8.0-windows\DAL.AssemblyInfoInputs.cache
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\obj\Debug\net8.0-windows\DAL.AssemblyInfo.cs
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\obj\Debug\net8.0-windows\DAL.csproj.CoreCompileInputs.cache
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\obj\Debug\net8.0-windows\DAL.sourcelink.json
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\obj\Debug\net8.0-windows\DAL.dll
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\obj\Debug\net8.0-windows\refint\DAL.dll
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\obj\Debug\net8.0-windows\DAL.pdb
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\DAL\obj\Debug\net8.0-windows\ref\DAL.dll

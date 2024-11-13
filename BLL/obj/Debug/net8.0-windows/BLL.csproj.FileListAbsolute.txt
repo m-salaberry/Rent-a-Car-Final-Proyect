@@ -1,0 +1,12 @@
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\BLL\bin\Debug\net8.0-windows\BLL.deps.json
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\BLL\bin\Debug\net8.0-windows\BLL.dll
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\BLL\bin\Debug\net8.0-windows\BLL.pdb
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\BLL\obj\Debug\net8.0-windows\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\BLL\obj\Debug\net8.0-windows\BLL.AssemblyInfoInputs.cache
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\BLL\obj\Debug\net8.0-windows\BLL.AssemblyInfo.cs
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\BLL\obj\Debug\net8.0-windows\BLL.csproj.CoreCompileInputs.cache
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\BLL\obj\Debug\net8.0-windows\BLL.sourcelink.json
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\BLL\obj\Debug\net8.0-windows\BLL.dll
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\BLL\obj\Debug\net8.0-windows\refint\BLL.dll
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\BLL\obj\Debug\net8.0-windows\BLL.pdb
+D:\Facultad\2do Año\2do Cuatri\TP Desarrollo y arquitectura de software\TP - Software de alquiler de autos\BLL\obj\Debug\net8.0-windows\ref\BLL.dll
