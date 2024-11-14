@@ -22,3 +22,11 @@ D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-wi
 D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\refint\BLL.dll
 D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.pdb
 D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\ref\BLL.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\DAL.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Entity.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Mapper.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\DAL.pdb
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Entity.pdb
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Mapper.pdb
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.AssemblyReference.cache
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.Up2Date
