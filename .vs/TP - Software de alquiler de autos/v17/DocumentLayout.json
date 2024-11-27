@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
@@ -78,8 +78,7 @@
               "RelativeToolTip": "UI\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T00:29:24.823Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "Entity\\model\\Car.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T01:51:20.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T01:51:20.299Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "Entity\\model\\Rent.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T00:30:39.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T00:30:39.222Z"
             },
             {
               "$type": "Document",
@@ -129,8 +126,7 @@
               "RelativeToolTip": "Entity\\model\\Client.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T00:28:07.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T00:28:07.596Z"
             },
             {
               "$type": "Document",
@@ -154,8 +150,7 @@
               "RelativeToolTip": "DAL\\InsuranceData.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAlwFcAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T00:44:42.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T00:44:42.205Z"
             },
             {
               "$type": "Document",
@@ -167,8 +162,7 @@
               "RelativeToolTip": "DAL\\CarData.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAlwGsAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T00:43:11.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T00:43:11.53Z"
             },
             {
               "$type": "Document",
@@ -180,8 +174,7 @@
               "RelativeToolTip": "DAL\\ClientData.cs",
               "ViewState": "AgIAAGgAAAAAAAAAAAAlwIwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T00:44:24.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T00:44:24.715Z"
             },
             {
               "$type": "Document",
@@ -197,6 +190,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RentData.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\RentData.cs",
+              "RelativeDocumentMoniker": "DAL\\RentData.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\RentData.cs",
+              "RelativeToolTip": "DAL\\RentData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:45:10.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
               "Title": "InsuranceBusiness.cs",
               "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\InsuranceBusiness.cs",
@@ -206,19 +212,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T00:42:21.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RentData.cs",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\RentData.cs",
-              "RelativeDocumentMoniker": "DAL\\RentData.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\RentData.cs",
-              "RelativeToolTip": "DAL\\RentData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T00:45:10.442Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
