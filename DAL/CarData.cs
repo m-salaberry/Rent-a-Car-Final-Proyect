@@ -14,7 +14,7 @@ namespace DAL
         private static AppDbContext getAppDbContext()
         {
             AppDbContextFactory appDbContextFactory = new AppDbContextFactory();
-            AppDbContext appDbConext = appDbContextFactory.CreateDbContext(null);
+            AppDbContext appDbConext = appDbContextFactory.CreateDbContext(null!);
             return appDbConext;
         }
         public List<CarEntity> ListAllCars() 
@@ -47,7 +47,7 @@ namespace DAL
             {
                 using (AppDbContext appDbContext = getAppDbContext())
                 {
-                    return CarMapper.Map(appDbContext.Cars.Find(plateToFind));
+                    return CarMapper.Map(appDbContext.Cars.Find(plateToFind)!);
                 }
             }
             catch (Exception)
@@ -80,7 +80,7 @@ namespace DAL
             {
                 using(AppDbContext appDbContext = getAppDbContext())
                 {
-                    Car carToMod = appDbContext.Cars.Find(carMod.Plate);
+                    Car carToMod = appDbContext.Cars.Find(carMod.Plate)!;
                     carToMod.plate = carMod.Plate;
                     carToMod.brand = carMod.Brand;
                     carToMod.model = carMod.Model;
@@ -105,7 +105,7 @@ namespace DAL
             {
                 using (AppDbContext appDbContext = getAppDbContext())
                 {
-                    appDbContext.Cars.Remove(appDbContext.Cars.Find(plateToDelete));
+                    appDbContext.Cars.Remove(appDbContext.Cars.Find(plateToDelete)!);
                     appDbContext.SaveChanges();
                 }
             }

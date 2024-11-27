@@ -74,8 +74,7 @@
               "RelativeToolTip": "UI\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T00:29:24.823Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -157,7 +156,7 @@
               "RelativeDocumentMoniker": "DAL\\CarData.cs",
               "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\CarData.cs",
               "RelativeToolTip": "DAL\\CarData.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAawDEAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwHMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T00:43:11.53Z",
               "EditorCaption": ""
