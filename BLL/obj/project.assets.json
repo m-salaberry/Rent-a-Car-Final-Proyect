@@ -2666,23 +2666,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Agus\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Mati\\.nuget\\packages\\": {},
+    "D:\\Programas\\Visual Studio Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\Agus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\BLL\\obj\\",
+      "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
+      "outputPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Programas\\Visual Studio Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Agus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mati\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2691,17 +2691,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj"
+            "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+            "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+              "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
             }
           }
         }
@@ -2714,9 +2715,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -2740,7 +2740,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

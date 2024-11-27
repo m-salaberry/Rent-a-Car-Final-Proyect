@@ -11,7 +11,6 @@ namespace DAL
 {
     public class RentData
     {
-        //Delo se la come y juan se la da
 
         private static AppDbContext getAppDbContext()
         {
