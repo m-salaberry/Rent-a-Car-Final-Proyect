@@ -22,3 +22,15 @@ D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0
 D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\refint\Entity.dll
 D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.pdb
 D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\ref\Entity.dll
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\Entity\bin\Debug\net8.0-windows\Entity.deps.json
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\Entity\bin\Debug\net8.0-windows\Entity.dll
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\Entity\bin\Debug\net8.0-windows\Entity.pdb
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.AssemblyInfoInputs.cache
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.AssemblyInfo.cs
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.csproj.CoreCompileInputs.cache
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.sourcelink.json
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.dll
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\refint\Entity.dll
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.pdb
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\ref\Entity.dll
