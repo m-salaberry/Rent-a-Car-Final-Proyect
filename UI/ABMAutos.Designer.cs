@@ -33,10 +33,24 @@
             label11 = new Label();
             txtElimPatente = new TextBox();
             groupBox2 = new GroupBox();
+            txtModAutoDetalles = new TextBox();
+            label7 = new Label();
+            txtModAutoKilometraje = new TextBox();
+            label8 = new Label();
+            txtModAutoPrecio = new TextBox();
+            label13 = new Label();
             btnModificarAuto = new Button();
             label10 = new Label();
             txtModAutoPatente = new TextBox();
             groupBox1 = new GroupBox();
+            txtCAutoDetalles = new TextBox();
+            label12 = new Label();
+            txtCAutoColor = new TextBox();
+            label9 = new Label();
+            txtCAutoKilometraje = new TextBox();
+            label6 = new Label();
+            txtCAutoPrecio = new TextBox();
+            txtCAutoAno = new TextBox();
             label3 = new Label();
             txtCAutoModelo = new TextBox();
             btnCrearAuto = new Button();
@@ -46,20 +60,6 @@
             label1 = new Label();
             txtNClienteNombre = new TextBox();
             txtCAutoPatente = new TextBox();
-            txtCAutoAno = new TextBox();
-            txtCAutoPrecio = new TextBox();
-            txtCAutoKilometraje = new TextBox();
-            label6 = new Label();
-            txtCAutoColor = new TextBox();
-            label9 = new Label();
-            txtCAutoDetalles = new TextBox();
-            label12 = new Label();
-            txtModAutoDetalles = new TextBox();
-            label7 = new Label();
-            txtModAutoKilometraje = new TextBox();
-            label8 = new Label();
-            txtModAutoPrecio = new TextBox();
-            label13 = new Label();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -118,7 +118,55 @@
             groupBox2.Size = new Size(347, 263);
             groupBox2.TabIndex = 5;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Modificar Cliente";
+            groupBox2.Text = "Modificar Auto";
+            // 
+            // txtModAutoDetalles
+            // 
+            txtModAutoDetalles.Location = new Point(6, 169);
+            txtModAutoDetalles.Name = "txtModAutoDetalles";
+            txtModAutoDetalles.Size = new Size(326, 23);
+            txtModAutoDetalles.TabIndex = 27;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(6, 151);
+            label7.Name = "label7";
+            label7.Size = new Size(48, 15);
+            label7.TabIndex = 26;
+            label7.Text = "Detalles";
+            // 
+            // txtModAutoKilometraje
+            // 
+            txtModAutoKilometraje.Location = new Point(6, 125);
+            txtModAutoKilometraje.Name = "txtModAutoKilometraje";
+            txtModAutoKilometraje.Size = new Size(326, 23);
+            txtModAutoKilometraje.TabIndex = 25;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(6, 107);
+            label8.Name = "label8";
+            label8.Size = new Size(67, 15);
+            label8.TabIndex = 24;
+            label8.Text = "Kilometraje";
+            // 
+            // txtModAutoPrecio
+            // 
+            txtModAutoPrecio.Location = new Point(6, 81);
+            txtModAutoPrecio.Name = "txtModAutoPrecio";
+            txtModAutoPrecio.Size = new Size(326, 23);
+            txtModAutoPrecio.TabIndex = 23;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(6, 63);
+            label13.Name = "label13";
+            label13.Size = new Size(81, 15);
+            label13.TabIndex = 22;
+            label13.Text = "Precio por Día";
             // 
             // btnModificarAuto
             // 
@@ -169,7 +217,70 @@
             groupBox1.Size = new Size(347, 439);
             groupBox1.TabIndex = 4;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Nuevo Cliente";
+            groupBox1.Text = "Nuevo Auto";
+            groupBox1.Enter += groupBox1_Enter;
+            // 
+            // txtCAutoDetalles
+            // 
+            txtCAutoDetalles.Location = new Point(6, 351);
+            txtCAutoDetalles.Name = "txtCAutoDetalles";
+            txtCAutoDetalles.Size = new Size(326, 23);
+            txtCAutoDetalles.TabIndex = 21;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(6, 333);
+            label12.Name = "label12";
+            label12.Size = new Size(48, 15);
+            label12.TabIndex = 20;
+            label12.Text = "Detalles";
+            // 
+            // txtCAutoColor
+            // 
+            txtCAutoColor.Location = new Point(6, 308);
+            txtCAutoColor.Name = "txtCAutoColor";
+            txtCAutoColor.Size = new Size(326, 23);
+            txtCAutoColor.TabIndex = 19;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(6, 290);
+            label9.Name = "label9";
+            label9.Size = new Size(36, 15);
+            label9.TabIndex = 18;
+            label9.Text = "Color";
+            // 
+            // txtCAutoKilometraje
+            // 
+            txtCAutoKilometraje.Location = new Point(6, 266);
+            txtCAutoKilometraje.Name = "txtCAutoKilometraje";
+            txtCAutoKilometraje.Size = new Size(326, 23);
+            txtCAutoKilometraje.TabIndex = 17;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(6, 248);
+            label6.Name = "label6";
+            label6.Size = new Size(67, 15);
+            label6.TabIndex = 16;
+            label6.Text = "Kilometraje";
+            // 
+            // txtCAutoPrecio
+            // 
+            txtCAutoPrecio.Location = new Point(6, 222);
+            txtCAutoPrecio.Name = "txtCAutoPrecio";
+            txtCAutoPrecio.Size = new Size(326, 23);
+            txtCAutoPrecio.TabIndex = 15;
+            // 
+            // txtCAutoAno
+            // 
+            txtCAutoAno.Location = new Point(6, 178);
+            txtCAutoAno.Name = "txtCAutoAno";
+            txtCAutoAno.Size = new Size(326, 23);
+            txtCAutoAno.TabIndex = 14;
             // 
             // label3
             // 
@@ -245,116 +356,6 @@
             txtCAutoPatente.Name = "txtCAutoPatente";
             txtCAutoPatente.Size = new Size(326, 23);
             txtCAutoPatente.TabIndex = 0;
-            // 
-            // txtCAutoAno
-            // 
-            txtCAutoAno.Location = new Point(6, 178);
-            txtCAutoAno.Name = "txtCAutoAno";
-            txtCAutoAno.Size = new Size(326, 23);
-            txtCAutoAno.TabIndex = 14;
-            // 
-            // txtCAutoPrecio
-            // 
-            txtCAutoPrecio.Location = new Point(6, 222);
-            txtCAutoPrecio.Name = "txtCAutoPrecio";
-            txtCAutoPrecio.Size = new Size(326, 23);
-            txtCAutoPrecio.TabIndex = 15;
-            // 
-            // txtCAutoKilometraje
-            // 
-            txtCAutoKilometraje.Location = new Point(6, 266);
-            txtCAutoKilometraje.Name = "txtCAutoKilometraje";
-            txtCAutoKilometraje.Size = new Size(326, 23);
-            txtCAutoKilometraje.TabIndex = 17;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(6, 248);
-            label6.Name = "label6";
-            label6.Size = new Size(67, 15);
-            label6.TabIndex = 16;
-            label6.Text = "Kilometraje";
-            // 
-            // txtCAutoColor
-            // 
-            txtCAutoColor.Location = new Point(6, 308);
-            txtCAutoColor.Name = "txtCAutoColor";
-            txtCAutoColor.Size = new Size(326, 23);
-            txtCAutoColor.TabIndex = 19;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(6, 290);
-            label9.Name = "label9";
-            label9.Size = new Size(36, 15);
-            label9.TabIndex = 18;
-            label9.Text = "Color";
-            // 
-            // txtCAutoDetalles
-            // 
-            txtCAutoDetalles.Location = new Point(6, 351);
-            txtCAutoDetalles.Name = "txtCAutoDetalles";
-            txtCAutoDetalles.Size = new Size(326, 23);
-            txtCAutoDetalles.TabIndex = 21;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Location = new Point(6, 333);
-            label12.Name = "label12";
-            label12.Size = new Size(48, 15);
-            label12.TabIndex = 20;
-            label12.Text = "Detalles";
-            // 
-            // txtModAutoDetalles
-            // 
-            txtModAutoDetalles.Location = new Point(6, 169);
-            txtModAutoDetalles.Name = "txtModAutoDetalles";
-            txtModAutoDetalles.Size = new Size(326, 23);
-            txtModAutoDetalles.TabIndex = 27;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(6, 151);
-            label7.Name = "label7";
-            label7.Size = new Size(48, 15);
-            label7.TabIndex = 26;
-            label7.Text = "Detalles";
-            // 
-            // txtModAutoKilometraje
-            // 
-            txtModAutoKilometraje.Location = new Point(6, 125);
-            txtModAutoKilometraje.Name = "txtModAutoKilometraje";
-            txtModAutoKilometraje.Size = new Size(326, 23);
-            txtModAutoKilometraje.TabIndex = 25;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(6, 107);
-            label8.Name = "label8";
-            label8.Size = new Size(67, 15);
-            label8.TabIndex = 24;
-            label8.Text = "Kilometraje";
-            // 
-            // txtModAutoPrecio
-            // 
-            txtModAutoPrecio.Location = new Point(6, 81);
-            txtModAutoPrecio.Name = "txtModAutoPrecio";
-            txtModAutoPrecio.Size = new Size(326, 23);
-            txtModAutoPrecio.TabIndex = 23;
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Location = new Point(6, 63);
-            label13.Name = "label13";
-            label13.Size = new Size(81, 15);
-            label13.TabIndex = 22;
-            label13.Text = "Precio por Día";
             // 
             // ABMAutos
             // 
