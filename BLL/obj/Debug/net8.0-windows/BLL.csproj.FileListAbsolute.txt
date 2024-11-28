@@ -30,3 +30,23 @@ D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-wi
 D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Mapper.pdb
 D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.AssemblyReference.cache
 D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.Up2Date
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\BLL.deps.json
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\BLL.dll
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\BLL.pdb
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\DAL.dll
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Entity.dll
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Mapper.dll
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\DAL.pdb
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Entity.pdb
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Mapper.pdb
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.AssemblyReference.cache
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.AssemblyInfoInputs.cache
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.AssemblyInfo.cs
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.CoreCompileInputs.cache
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.sourcelink.json
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.Up2Date
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.dll
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\refint\BLL.dll
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.pdb
+C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\ref\BLL.dll
