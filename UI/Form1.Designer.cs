@@ -187,9 +187,9 @@
             // dgvAlquileres
             // 
             dgvAlquileres.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAlquileres.Location = new Point(365, 20);
+            dgvAlquileres.Location = new Point(714, 12);
             dgvAlquileres.Name = "dgvAlquileres";
-            dgvAlquileres.Size = new Size(878, 929);
+            dgvAlquileres.Size = new Size(878, 577);
             dgvAlquileres.TabIndex = 1;
             // 
             // groupBox2
@@ -274,9 +274,9 @@
             groupBox3.Controls.Add(label10);
             groupBox3.Controls.Add(label11);
             groupBox3.Controls.Add(textBox1);
-            groupBox3.Location = new Point(12, 595);
+            groupBox3.Location = new Point(365, 12);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(347, 234);
+            groupBox3.Size = new Size(347, 248);
             groupBox3.TabIndex = 12;
             groupBox3.TabStop = false;
             groupBox3.Text = "Cancelar Alquiler";
@@ -343,7 +343,7 @@
             groupBox4.Controls.Add(btnABMSeguros);
             groupBox4.Controls.Add(btnABMAutos);
             groupBox4.Controls.Add(btnABMClientes);
-            groupBox4.Location = new Point(12, 835);
+            groupBox4.Location = new Point(365, 417);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(347, 172);
             groupBox4.TabIndex = 13;
@@ -385,19 +385,19 @@
             groupBox5.Controls.Add(textBox3);
             groupBox5.Controls.Add(textBox2);
             groupBox5.Controls.Add(btnBuscar);
-            groupBox5.Location = new Point(365, 955);
+            groupBox5.Location = new Point(365, 266);
             groupBox5.Name = "groupBox5";
-            groupBox5.Size = new Size(881, 52);
+            groupBox5.Size = new Size(347, 145);
             groupBox5.TabIndex = 15;
             groupBox5.TabStop = false;
             groupBox5.Text = "Busqueda Alquileres";
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(338, 20);
+            textBox3.Location = new Point(6, 49);
             textBox3.Name = "textBox3";
             textBox3.PlaceholderText = "PATENTE VEHICULO";
-            textBox3.Size = new Size(326, 23);
+            textBox3.Size = new Size(332, 23);
             textBox3.TabIndex = 16;
             // 
             // textBox2
@@ -405,14 +405,14 @@
             textBox2.Location = new Point(6, 20);
             textBox2.Name = "textBox2";
             textBox2.PlaceholderText = "DNI CLIENTE";
-            textBox2.Size = new Size(326, 23);
+            textBox2.Size = new Size(332, 23);
             textBox2.TabIndex = 15;
             // 
             // btnBuscar
             // 
-            btnBuscar.Location = new Point(670, 15);
+            btnBuscar.Location = new Point(6, 85);
             btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new Size(205, 32);
+            btnBuscar.Size = new Size(332, 48);
             btnBuscar.TabIndex = 14;
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
@@ -421,7 +421,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1258, 749);
+            ClientSize = new Size(1604, 600);
             Controls.Add(groupBox5);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);
