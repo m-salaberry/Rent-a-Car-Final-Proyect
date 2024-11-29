@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,6 +21,29 @@ namespace UI
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCrearAuto_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                CarEntity carEntity = new CarEntity
+                {
+                    Plate = txtCAutoPatente.Text,
+                    Brand = txtCAutoMarca.Text,
+                    Model = txtCAutoModelo.Text,
+                    Year = Convert.ToInt32(txtCAutoAno.Text),
+                    PricePerDay = Convert.ToDouble(txtCAutoPrecio.Text),
+                    Kilometers = Convert.ToInt32(txtCAutoKilometraje.Text),
+                    Color = txtCAutoColor.Text,
+                    Details = txtCAutoDetalles.Text
+                };
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

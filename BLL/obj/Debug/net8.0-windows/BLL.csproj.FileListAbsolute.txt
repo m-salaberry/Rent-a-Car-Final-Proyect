@@ -70,3 +70,23 @@ C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO 
 C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\refint\BLL.dll
 C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.pdb
 C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\ref\BLL.dll
+E:\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\BLL.deps.json
+E:\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\BLL.dll
+E:\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\BLL.pdb
+E:\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\DAL.dll
+E:\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Entity.dll
+E:\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Mapper.dll
+E:\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\DAL.pdb
+E:\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Entity.pdb
+E:\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Mapper.pdb
+E:\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.AssemblyReference.cache
+E:\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.AssemblyInfoInputs.cache
+E:\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.AssemblyInfo.cs
+E:\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.CoreCompileInputs.cache
+E:\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.sourcelink.json
+E:\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.Up2Date
+E:\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.dll
+E:\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\refint\BLL.dll
+E:\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.pdb
+E:\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\ref\BLL.dll

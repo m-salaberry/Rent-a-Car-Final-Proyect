@@ -62,3 +62,19 @@ C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO 
 C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\refint\Mapper.dll
 C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\Mapper.pdb
 C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\ref\Mapper.dll
+E:\Rent-a-Car-Final-Proyect\Mapper\bin\Debug\net8.0-windows\Mapper.deps.json
+E:\Rent-a-Car-Final-Proyect\Mapper\bin\Debug\net8.0-windows\Mapper.dll
+E:\Rent-a-Car-Final-Proyect\Mapper\bin\Debug\net8.0-windows\Mapper.pdb
+E:\Rent-a-Car-Final-Proyect\Mapper\bin\Debug\net8.0-windows\Entity.dll
+E:\Rent-a-Car-Final-Proyect\Mapper\bin\Debug\net8.0-windows\Entity.pdb
+E:\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\Mapper.csproj.AssemblyReference.cache
+E:\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\Mapper.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\Mapper.AssemblyInfoInputs.cache
+E:\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\Mapper.AssemblyInfo.cs
+E:\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\Mapper.csproj.CoreCompileInputs.cache
+E:\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\Mapper.sourcelink.json
+E:\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\Mapper.csproj.Up2Date
+E:\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\Mapper.dll
+E:\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\refint\Mapper.dll
+E:\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\Mapper.pdb
+E:\Rent-a-Car-Final-Proyect\Mapper\obj\Debug\net8.0-windows\ref\Mapper.dll

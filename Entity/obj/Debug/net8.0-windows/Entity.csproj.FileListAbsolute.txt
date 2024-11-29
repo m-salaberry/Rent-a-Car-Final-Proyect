@@ -46,3 +46,15 @@ C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO 
 C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\refint\Entity.dll
 C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.pdb
 C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\ref\Entity.dll
+E:\Rent-a-Car-Final-Proyect\Entity\bin\Debug\net8.0-windows\Entity.deps.json
+E:\Rent-a-Car-Final-Proyect\Entity\bin\Debug\net8.0-windows\Entity.dll
+E:\Rent-a-Car-Final-Proyect\Entity\bin\Debug\net8.0-windows\Entity.pdb
+E:\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.AssemblyInfoInputs.cache
+E:\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.AssemblyInfo.cs
+E:\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.csproj.CoreCompileInputs.cache
+E:\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.sourcelink.json
+E:\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.dll
+E:\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\refint\Entity.dll
+E:\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.pdb
+E:\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\ref\Entity.dll

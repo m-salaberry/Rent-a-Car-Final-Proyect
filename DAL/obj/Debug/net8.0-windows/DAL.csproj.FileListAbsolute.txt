@@ -70,3 +70,23 @@ C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO 
 C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.pdb
 C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.genruntimeconfig.cache
 C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\ref\DAL.dll
+E:\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\DAL.deps.json
+E:\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\DAL.runtimeconfig.json
+E:\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\DAL.dll
+E:\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\DAL.pdb
+E:\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\Entity.dll
+E:\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\Mapper.dll
+E:\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\Entity.pdb
+E:\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\Mapper.pdb
+E:\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.csproj.AssemblyReference.cache
+E:\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.AssemblyInfoInputs.cache
+E:\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.AssemblyInfo.cs
+E:\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.csproj.CoreCompileInputs.cache
+E:\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.sourcelink.json
+E:\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.csproj.Up2Date
+E:\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.dll
+E:\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\refint\DAL.dll
+E:\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.pdb
+E:\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.genruntimeconfig.cache
+E:\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\ref\DAL.dll

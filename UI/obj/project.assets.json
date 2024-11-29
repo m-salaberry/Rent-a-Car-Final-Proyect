@@ -4588,11 +4588,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj",
+      "projectUniqueName": "E:\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj",
+      "projectPath": "E:\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj",
       "packagesPath": "C:\\Users\\Agus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\UI\\obj\\",
+      "outputPath": "E:\\Rent-a-Car-Final-Proyect\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4613,11 +4613,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj"
+            "E:\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {
+              "projectPath": "E:\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+            "E:\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+              "projectPath": "E:\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
             }
           }
         }

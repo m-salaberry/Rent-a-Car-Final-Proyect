@@ -58,7 +58,7 @@
             label4 = new Label();
             label2 = new Label();
             label1 = new Label();
-            txtNClienteNombre = new TextBox();
+            txtCAutoMarca = new TextBox();
             txtCAutoPatente = new TextBox();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -210,7 +210,7 @@
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label1);
-            groupBox1.Controls.Add(txtNClienteNombre);
+            groupBox1.Controls.Add(txtCAutoMarca);
             groupBox1.Controls.Add(txtCAutoPatente);
             groupBox1.Location = new Point(12, 12);
             groupBox1.Name = "groupBox1";
@@ -306,6 +306,7 @@
             btnCrearAuto.TabIndex = 11;
             btnCrearAuto.Text = "Crear Cliente";
             btnCrearAuto.UseVisualStyleBackColor = true;
+            btnCrearAuto.Click += btnCrearAuto_Click;
             // 
             // label5
             // 
@@ -343,12 +344,12 @@
             label1.TabIndex = 3;
             label1.Text = "Patente";
             // 
-            // txtNClienteNombre
+            // txtCAutoMarca
             // 
-            txtNClienteNombre.Location = new Point(6, 90);
-            txtNClienteNombre.Name = "txtNClienteNombre";
-            txtNClienteNombre.Size = new Size(326, 23);
-            txtNClienteNombre.TabIndex = 1;
+            txtCAutoMarca.Location = new Point(6, 90);
+            txtCAutoMarca.Name = "txtCAutoMarca";
+            txtCAutoMarca.Size = new Size(326, 23);
+            txtCAutoMarca.TabIndex = 1;
             // 
             // txtCAutoPatente
             // 
@@ -394,7 +395,7 @@
         private Label label4;
         private Label label2;
         private Label label1;
-        private TextBox txtNClienteNombre;
+        private TextBox txtCAutoMarca;
         private TextBox txtCAutoPatente;
         private TextBox txtCAutoKilometraje;
         private Label label6;
