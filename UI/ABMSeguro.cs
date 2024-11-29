@@ -44,13 +44,14 @@ namespace UI
         {
             try
             {
-                //InsuranceEntity insuranceEntity = new InsuranceEntity
-                //{
+                InsuranceEntity insuranceEntity = new InsuranceEntity
+                {
+                    Id = Convert.ToInt32(txtModID.Text),
+                    Price = Convert.ToDouble(txtModSeguroPrecio.Text)
+                };
 
-                //};
-
-                //insuranceBusiness.ModInsurance(insuranceEntity);
-                //MessageBox.Show("Se modifico correctamente el seguro");
+                insuranceBusiness.ModInsurance(insuranceEntity);
+                MessageBox.Show("Se modifico correctamente el seguro");
             }
             catch (Exception ex)
             {
