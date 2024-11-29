@@ -90,5 +90,10 @@ namespace UI
         {
 
         }
+
+        private void btnBuscarAuto_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

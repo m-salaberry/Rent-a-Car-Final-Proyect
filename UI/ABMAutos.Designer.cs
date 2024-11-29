@@ -33,6 +33,7 @@
             label11 = new Label();
             txtElimPatente = new TextBox();
             groupBox2 = new GroupBox();
+            btnBuscarAuto = new Button();
             txtModAutoDetalles = new TextBox();
             label7 = new Label();
             txtModAutoKilometraje = new TextBox();
@@ -60,7 +61,6 @@
             label1 = new Label();
             txtCAutoMarca = new TextBox();
             txtCAutoPatente = new TextBox();
-            btnBuscarAuto = new Button();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -123,11 +123,23 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "Modificar Auto";
             // 
+            // btnBuscarAuto
+            // 
+            btnBuscarAuto.Location = new Point(6, 249);
+            btnBuscarAuto.Name = "btnBuscarAuto";
+            btnBuscarAuto.Size = new Size(326, 28);
+            btnBuscarAuto.TabIndex = 28;
+            btnBuscarAuto.Text = "Buscar Auto";
+            btnBuscarAuto.UseVisualStyleBackColor = true;
+            btnBuscarAuto.Click += btnBuscarAuto_Click;
+            // 
             // txtModAutoDetalles
             // 
+            txtModAutoDetalles.Enabled = false;
             txtModAutoDetalles.Location = new Point(6, 169);
+            txtModAutoDetalles.Multiline = true;
             txtModAutoDetalles.Name = "txtModAutoDetalles";
-            txtModAutoDetalles.Size = new Size(326, 23);
+            txtModAutoDetalles.Size = new Size(326, 76);
             txtModAutoDetalles.TabIndex = 27;
             // 
             // label7
@@ -141,6 +153,7 @@
             // 
             // txtModAutoKilometraje
             // 
+            txtModAutoKilometraje.Enabled = false;
             txtModAutoKilometraje.Location = new Point(6, 125);
             txtModAutoKilometraje.Name = "txtModAutoKilometraje";
             txtModAutoKilometraje.Size = new Size(326, 23);
@@ -157,6 +170,7 @@
             // 
             // txtModAutoPrecio
             // 
+            txtModAutoPrecio.Enabled = false;
             txtModAutoPrecio.Location = new Point(6, 81);
             txtModAutoPrecio.Name = "txtModAutoPrecio";
             txtModAutoPrecio.Size = new Size(326, 23);
@@ -173,9 +187,9 @@
             // 
             // btnModificarAuto
             // 
-            btnModificarAuto.Location = new Point(6, 258);
+            btnModificarAuto.Location = new Point(6, 283);
             btnModificarAuto.Name = "btnModificarAuto";
-            btnModificarAuto.Size = new Size(326, 48);
+            btnModificarAuto.Size = new Size(326, 28);
             btnModificarAuto.TabIndex = 11;
             btnModificarAuto.Text = "Modificar Auto";
             btnModificarAuto.UseVisualStyleBackColor = true;
@@ -361,15 +375,6 @@
             txtCAutoPatente.Name = "txtCAutoPatente";
             txtCAutoPatente.Size = new Size(326, 23);
             txtCAutoPatente.TabIndex = 0;
-            // 
-            // btnBuscarAuto
-            // 
-            btnBuscarAuto.Location = new Point(6, 204);
-            btnBuscarAuto.Name = "btnBuscarAuto";
-            btnBuscarAuto.Size = new Size(326, 48);
-            btnBuscarAuto.TabIndex = 28;
-            btnBuscarAuto.Text = "Buscar Auto";
-            btnBuscarAuto.UseVisualStyleBackColor = true;
             // 
             // ABMAutos
             // 
