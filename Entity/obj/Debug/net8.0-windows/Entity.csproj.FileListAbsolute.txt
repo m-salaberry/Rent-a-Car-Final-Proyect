@@ -58,3 +58,15 @@ C:\Users\Agus\Desktop\TP prueba\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0
 C:\Users\Agus\Desktop\TP prueba\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\refint\Entity.dll
 C:\Users\Agus\Desktop\TP prueba\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.pdb
 C:\Users\Agus\Desktop\TP prueba\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\ref\Entity.dll
+C:\Users\user\Desktop\TP\Rent-a-Car-Final-Proyect\Entity\bin\Debug\net8.0-windows\Entity.deps.json
+C:\Users\user\Desktop\TP\Rent-a-Car-Final-Proyect\Entity\bin\Debug\net8.0-windows\Entity.dll
+C:\Users\user\Desktop\TP\Rent-a-Car-Final-Proyect\Entity\bin\Debug\net8.0-windows\Entity.pdb
+C:\Users\user\Desktop\TP\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\TP\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\TP\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.AssemblyInfo.cs
+C:\Users\user\Desktop\TP\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\TP\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.sourcelink.json
+C:\Users\user\Desktop\TP\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.dll
+C:\Users\user\Desktop\TP\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\refint\Entity.dll
+C:\Users\user\Desktop\TP\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\Entity.pdb
+C:\Users\user\Desktop\TP\Rent-a-Car-Final-Proyect\Entity\obj\Debug\net8.0-windows\ref\Entity.dll

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj": {}
+    "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj": {}
   },
   "projects": {
-    "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {
+    "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
-        "outputPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programas\\Visual Studio Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj"
+              "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj"
               },
-              "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+              "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
               }
             }
           }
@@ -75,24 +75,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj": {
+    "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
-        "outputPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programas\\Visual Studio Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -108,11 +108,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+              "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
               },
-              "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj": {
-                "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj"
+              "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj"
               }
             }
           }
@@ -180,24 +180,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+    "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
-        "outputPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programas\\Visual Studio Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -248,24 +248,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj": {
+    "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj",
         "projectName": "Mapper",
-        "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj",
-        "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
-        "outputPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Mapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programas\\Visual Studio Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -281,8 +281,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+              "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
               }
             }
           }
@@ -320,24 +320,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj": {
+    "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj",
         "projectName": "UI",
-        "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj",
-        "packagesPath": "C:\\Users\\Mati\\.nuget\\packages\\",
-        "outputPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programas\\Visual Studio Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mati\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -353,11 +353,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj"
+              "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj"
               },
-              "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
-                "projectPath": "D:\\Facultad\\2do Año\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+              "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\TP\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
               }
             }
           }
@@ -403,7 +403,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

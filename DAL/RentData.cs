@@ -31,8 +31,7 @@ namespace DAL
                     List<Rent> rentDb = appDbContext.Rents.ToList();
                     foreach (Rent rent in rentDb)
                     {
-                        rentList.Add(RentMapper.Map(rent));
-                        //appDbContext.Rents.Include(a => a.Car).Include(a => a.Client).Include(a => a.Insurance).Select (a => RentMapper.Map(a)).ToList();
+                        return appDbContext.Rents.Include(a => a.Car).Include(a => a.Client).Include(a => a.Insurance).Select (a => RentMapper.Map(a)).ToList();
                     }
                     return rentList;
                 }

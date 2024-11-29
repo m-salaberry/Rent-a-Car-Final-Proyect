@@ -39,6 +39,12 @@ namespace UI
             {
                 MessageBox.Show(ex.Message);
             }
+            finally
+            {
+                txtCSeguroNombre.Text = "";
+                txtCSeguroPrecio.Text = "";
+                ActualizarDataGrid();
+            }
         }
 
         private void btnModificarSeguro_Click(object sender, EventArgs e)
@@ -59,6 +65,12 @@ namespace UI
             {
                 MessageBox.Show(ex.Message);
             }
+            finally
+            {
+                txtModID.Text = "";
+                txtModSeguroPrecio.Text = "";
+                ActualizarDataGrid();
+            }
         }
 
         private void btnEliminarSeguro_Click(object sender, EventArgs e)
@@ -72,6 +84,11 @@ namespace UI
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                txtElimSeguro.Text = "";
+                ActualizarDataGrid();
             }
         }
 
