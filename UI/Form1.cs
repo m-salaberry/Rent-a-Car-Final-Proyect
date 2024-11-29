@@ -98,7 +98,7 @@ namespace UI
             {
                 rentBusiness.DeleteRent(textBox1.Text, Convert.ToInt32(txtDniCancelar.Text));
                 MessageBox.Show("Alquiler eliminado con exito");
-                
+
             }
             catch (Exception ex)
             {
@@ -130,6 +130,43 @@ namespace UI
                 txtModificarId.Text = "";
                 dtNuevoInicio.Value = DateTime.Now;
                 loadDgv();
+            }
+        }
+
+        private void btnClearFiltrer_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                loadDgv();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                List<RentEntity> rents = rentBusiness.GetRentsByPlate(textBox3.Text.ToUpper());
+                dgvAlquileres.DataSource = null;
+                dgvAlquileres.DataSource = rents;
+                dgvAlquileres.Columns["Client"].Visible = false;
+                dgvAlquileres.Columns["Car"].Visible = false;
+                dgvAlquileres.Columns["Insurance"].Visible = false;
+                MessageBox.Show("Alquiler encontrado");
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                textBox3.Text = "";
             }
         }
     }

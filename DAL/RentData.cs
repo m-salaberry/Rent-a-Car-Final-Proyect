@@ -134,5 +134,33 @@ namespace DAL
             }
         }
 
+        public List<RentEntity> GetRentsByPlate(string plateToFind)
+        {
+            try
+            {
+                using(AppDbContext appDbContext = getAppDbContext()) {
+                    List<RentEntity> rentas = appDbContext.Rents
+                    .Include(a => a.Car)
+                    .Include(a => a.Client)
+                    .Include(a => a.Insurance)
+                    .Where(a => a.Car.plate == plateToFind) // Filtro basado en la placa
+                    .Select(a => RentMapper.Map(a))
+                    .ToList();
+
+                    if (rentas == null)
+                    {
+                        return null!;
+                    }
+
+                    return rentas;
+                }   
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
     }
 }

@@ -122,6 +122,24 @@ namespace BLL
             {
                 throw;
             }
-        }}
+        }
+
+        public List<RentEntity> GetRentsByPlate(string plateToFind)
+        {
+            try
+            {
+                if (plateToFind == null)
+                {
+                    throw new Exception("Patente no valida.");
+                }
+                return rentData.GetRentsByPlate(plateToFind);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
+    
+}
 

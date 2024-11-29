@@ -58,8 +58,8 @@
             btnABMAutos = new Button();
             btnABMClientes = new Button();
             groupBox5 = new GroupBox();
+            btnClearFiltrer = new Button();
             textBox3 = new TextBox();
-            textBox2 = new TextBox();
             btnBuscar = new Button();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvAlquileres).BeginInit();
@@ -345,8 +345,8 @@
             // 
             // groupBox5
             // 
+            groupBox5.Controls.Add(btnClearFiltrer);
             groupBox5.Controls.Add(textBox3);
-            groupBox5.Controls.Add(textBox2);
             groupBox5.Controls.Add(btnBuscar);
             groupBox5.Location = new Point(365, 266);
             groupBox5.Name = "groupBox5";
@@ -355,30 +355,33 @@
             groupBox5.TabStop = false;
             groupBox5.Text = "Busqueda Alquileres";
             // 
+            // btnClearFiltrer
+            // 
+            btnClearFiltrer.Location = new Point(174, 70);
+            btnClearFiltrer.Name = "btnClearFiltrer";
+            btnClearFiltrer.Size = new Size(164, 48);
+            btnClearFiltrer.TabIndex = 17;
+            btnClearFiltrer.Text = "Limpiar Filtro";
+            btnClearFiltrer.UseVisualStyleBackColor = true;
+            btnClearFiltrer.Click += btnClearFiltrer_Click;
+            // 
             // textBox3
             // 
-            textBox3.Location = new Point(6, 49);
+            textBox3.Location = new Point(6, 22);
             textBox3.Name = "textBox3";
             textBox3.PlaceholderText = "PATENTE VEHICULO";
             textBox3.Size = new Size(332, 23);
             textBox3.TabIndex = 16;
             // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(6, 20);
-            textBox2.Name = "textBox2";
-            textBox2.PlaceholderText = "DNI CLIENTE";
-            textBox2.Size = new Size(332, 23);
-            textBox2.TabIndex = 15;
-            // 
             // btnBuscar
             // 
-            btnBuscar.Location = new Point(6, 85);
+            btnBuscar.Location = new Point(6, 70);
             btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new Size(332, 48);
+            btnBuscar.Size = new Size(164, 48);
             btnBuscar.TabIndex = 14;
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.Click += btnBuscar_Click;
             // 
             // Form1
             // 
@@ -438,9 +441,9 @@
         private Button btnABMClientes;
         private GroupBox groupBox5;
         private TextBox textBox3;
-        private TextBox textBox2;
         private Button btnBuscar;
         private Label label6;
         private TextBox txtDniCancelar;
+        private Button btnClearFiltrer;
     }
 }
