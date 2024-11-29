@@ -4582,23 +4582,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\noeli\\.nuget\\packages\\": {},
+    "C:\\Users\\Agus\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj",
+      "projectUniqueName": "C:\\Users\\Agus\\Desktop\\TP prueba\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj",
-      "packagesPath": "C:\\Users\\noeli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\UI\\obj\\",
+      "projectPath": "C:\\Users\\Agus\\Desktop\\TP prueba\\Rent-a-Car-Final-Proyect\\UI\\UI.csproj",
+      "packagesPath": "C:\\Users\\Agus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Agus\\Desktop\\TP prueba\\Rent-a-Car-Final-Proyect\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\noeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Agus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4607,18 +4607,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj"
+            "C:\\Users\\Agus\\Desktop\\TP prueba\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\Agus\\Desktop\\TP prueba\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+            "C:\\Users\\Agus\\Desktop\\TP prueba\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\Agus\\Desktop\\TP prueba\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
             }
           }
         }
@@ -4631,8 +4630,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -4664,16 +4664,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\UI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

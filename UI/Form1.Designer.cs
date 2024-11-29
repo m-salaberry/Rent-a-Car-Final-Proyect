@@ -101,6 +101,7 @@
             btnCrearAlquiler.TabIndex = 11;
             btnCrearAlquiler.Text = "Confirmar Alquiler";
             btnCrearAlquiler.UseVisualStyleBackColor = true;
+            btnCrearAlquiler.Click += btnCrearAlquiler_Click;
             // 
             // cmbCrearSeguro
             // 
@@ -420,7 +421,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1258, 1011);
+            ClientSize = new Size(1258, 749);
             Controls.Add(groupBox5);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);

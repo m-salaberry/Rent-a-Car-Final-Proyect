@@ -51,6 +51,18 @@ namespace BLL
 
         }
 
+        public ClientEntity GetClientByDni(int dniToFind)
+        {
+            try
+            {
+                return clientData.GetClientByDni(dniToFind);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
 
     }
 }

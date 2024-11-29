@@ -110,6 +110,17 @@ namespace BLL
                 throw;
             }
         }
+        public CarEntity GetCarByPlate(string plateToFind)
+        {
+            try
+            {
+                return carData.GetCarByPlate(plateToFind);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 
 }
