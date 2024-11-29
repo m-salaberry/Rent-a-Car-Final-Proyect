@@ -357,6 +357,7 @@
             btnABMSeguros.TabIndex = 14;
             btnABMSeguros.Text = "ABM Seguros";
             btnABMSeguros.UseVisualStyleBackColor = true;
+            btnABMSeguros.Click += btnABMSeguros_Click;
             // 
             // btnABMAutos
             // 
@@ -366,6 +367,7 @@
             btnABMAutos.TabIndex = 13;
             btnABMAutos.Text = "ABM Vehiculos";
             btnABMAutos.UseVisualStyleBackColor = true;
+            btnABMAutos.Click += btnABMAutos_Click;
             // 
             // btnABMClientes
             // 
@@ -375,6 +377,7 @@
             btnABMClientes.TabIndex = 12;
             btnABMClientes.Text = "ABM Clientes";
             btnABMClientes.UseVisualStyleBackColor = true;
+            btnABMClientes.Click += btnABMClientes_Click;
             // 
             // groupBox5
             // 
