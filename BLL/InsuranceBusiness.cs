@@ -1,5 +1,6 @@
 ﻿using DAL;
 using Entity;
+using Entity.model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,12 +25,14 @@ namespace BLL
                     {
                         throw new Exception("El nombre del seguro debe tener como minimo 5 caracteres");
                     }
+                    if (ListAllInsurances().Any(i => i.TypeOfInsurance == insurance.TypeOfInsurance))
+                    {
+                        throw new Exception("El seguro ya existe");
+                    }
                     if (insurance.Price < 0)
                     {
                         throw new Exception("El precio debe ser mayor a 0");
                     }
-
-
                     insuranceData.AddInsurance(insurance);
                     trx.Complete();
                 }
@@ -44,7 +47,15 @@ namespace BLL
         {
             try
             {
-                insuranceData.ModInsurance(insurance);
+                using (var trx = new TransactionScope())
+                {
+                    if (insurance.Price < 0)
+                    {
+                    throw new Exception("El precio debe ser mayor a 0");
+                    }
+                    insuranceData.ModInsurance(insurance);
+                    trx.Complete(); 
+                }
             }
             catch (Exception ex)
             {
@@ -56,7 +67,16 @@ namespace BLL
         {
             try
             {
-                insuranceData.DeleteInsurance(id);
+                using (var trx = new TransactionScope())
+                {
+                    if (ListAllInsurances().Any(i => i.Id == id))
+                    {
+                        throw new Exception("El ID no corresponde a un seguro existente.");
+                    }
+                    insuranceData.DeleteInsurance(id);
+                    trx.Complete();
+
+                }
             }
             catch (Exception ex)
             {

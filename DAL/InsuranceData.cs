@@ -66,8 +66,7 @@ namespace DAL
             {
                 using (AppDbContext appDbContext = getAppDbContext())
                 {
-                    Insurance insuranceDb = appDbContext.Insurances.Find(insurance.Id)!;
-                    insuranceDb.TypeOfInsurance = insurance.TypeOfInsurance;
+                    Insurance insuranceDb = InsuranceMapper.Map(GetInsuranceById(insurance.Id));
                     insuranceDb.Price = insurance.Price;
                     appDbContext.SaveChanges();
                 }
@@ -85,7 +84,7 @@ namespace DAL
             {
                 using (AppDbContext appDbContext = getAppDbContext())
                 {
-                    Insurance insuranceDb = appDbContext.Insurances.Find(id)!;
+                    Insurance insuranceDb = InsuranceMapper.Map(GetInsuranceById(id));
                     appDbContext.Insurances.Remove(insuranceDb);
                     appDbContext.SaveChanges();
                 }
@@ -97,5 +96,25 @@ namespace DAL
             }
         }
 
+        public InsuranceEntity GetInsuranceById(int id)
+        {
+            try
+            {
+                using (AppDbContext appDbContext = getAppDbContext())
+                {
+                    Insurance insuranceDb = appDbContext.Insurances.Find(id)!;
+                    if (insuranceDb == null)
+                    {
+                        return null!;
+                    }
+                    InsuranceEntity insurance = InsuranceMapper.Map(insuranceDb);
+                    return insurance;
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }
