@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "IEb5Lg6M2/g=",
   "success": true,
   "projectFilePath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj",
-=======
-  "dgSpecHash": "GFKozv3P0Jc=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj",
->>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Mapper\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
