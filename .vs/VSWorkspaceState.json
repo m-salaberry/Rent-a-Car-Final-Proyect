@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\BLL",
     "\\DAL",
     "\\UI"
   ],
-  "SelectedNode": "\\UI\\ABMSeguro.cs",
+  "SelectedNode": "\\UI\\ABMSeguro.resx",
   "PreviewInSolutionExplorer": false
 }
