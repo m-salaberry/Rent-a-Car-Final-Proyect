@@ -66,7 +66,7 @@ namespace DAL
             {
                 using (AppDbContext appDbContext = getAppDbContext())
                 {
-                    Insurance insuranceDb = InsuranceMapper.Map(GetInsuranceById(insurance.Id));
+                    Insurance insuranceDb = appDbContext.Insurances.Where(i => i.Id == insurance.Id).FirstOrDefault()!;
                     insuranceDb.Price = insurance.Price;
                     appDbContext.SaveChanges();
                 }
@@ -84,7 +84,7 @@ namespace DAL
             {
                 using (AppDbContext appDbContext = getAppDbContext())
                 {
-                    Insurance insuranceDb = InsuranceMapper.Map(GetInsuranceById(id));
+                    Insurance insuranceDb = appDbContext.Insurances.Where(i => i.Id == id).FirstOrDefault()!;
                     appDbContext.Insurances.Remove(insuranceDb);
                     appDbContext.SaveChanges();
                 }

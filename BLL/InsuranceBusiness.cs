@@ -49,12 +49,16 @@ namespace BLL
             {
                 using (var trx = new TransactionScope())
                 {
+                    if (!ListAllInsurances().Any(i => i.Id == insurance.Id))
+                    {
+                        throw new Exception("El ID no corresponde a un seguro existente.");
+                    }
                     if (insurance.Price < 0)
                     {
-                    throw new Exception("El precio debe ser mayor a 0");
+                        throw new Exception("El precio debe ser mayor a 0");
                     }
                     insuranceData.ModInsurance(insurance);
-                    trx.Complete(); 
+                    trx.Complete();
                 }
             }
             catch (Exception ex)
@@ -69,7 +73,7 @@ namespace BLL
             {
                 using (var trx = new TransactionScope())
                 {
-                    if (ListAllInsurances().Any(i => i.Id == id))
+                    if (!ListAllInsurances().Any(i => i.Id == id))
                     {
                         throw new Exception("El ID no corresponde a un seguro existente.");
                     }
@@ -117,4 +121,3 @@ namespace BLL
     }
 
 }
-

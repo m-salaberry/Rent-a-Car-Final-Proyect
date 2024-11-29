@@ -33,6 +33,7 @@ namespace UI
 
                 insuranceBusiness.AddInsurance(insuranceEntity);
                 MessageBox.Show("Se creo correctamente el seguro");
+                ActualizarDataGrid();
             }
             catch (Exception ex)
             {
@@ -52,6 +53,7 @@ namespace UI
 
                 insuranceBusiness.ModInsurance(insuranceEntity);
                 MessageBox.Show("Se modifico correctamente el seguro");
+                ActualizarDataGrid();
             }
             catch (Exception ex)
             {
@@ -65,6 +67,7 @@ namespace UI
             {
                 insuranceBusiness.DeleteInsurance(Convert.ToInt32(txtElimSeguro.Text));
                 MessageBox.Show("Se elimino correctamente el seguro");
+                ActualizarDataGrid();
             }
             catch (Exception ex)
             {
