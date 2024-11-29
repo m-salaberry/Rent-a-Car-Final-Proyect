@@ -58,6 +58,13 @@ namespace UI
             {
                 MessageBox.Show(ex.Message);
             }
+            finally
+            {
+                txtNuevoDNI.Text = "";
+                txtNuevoPatente.Text = "";
+                dtNuevoInicio.Value = DateTime.Now;
+                dtCrearFinAlq.Value = DateTime.Now;
+            }
         }
     }
 }

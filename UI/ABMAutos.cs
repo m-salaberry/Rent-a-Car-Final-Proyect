@@ -32,7 +32,7 @@ namespace UI
             {
                 CarEntity carEntity = new CarEntity
                 {
-                    Plate = txtCAutoPatente.Text,
+                    Plate = txtCAutoPatente.Text.ToUpper(),
                     Brand = txtCAutoMarca.Text,
                     Model = txtCAutoModelo.Text,
                     Year = Convert.ToInt32(txtCAutoAno.Text),
@@ -50,6 +50,18 @@ namespace UI
             {
                 MessageBox.Show(ex.Message);
             }
+            finally
+            {
+                txtCAutoPatente.Text = "";
+                txtCAutoMarca.Text = "";
+                txtCAutoModelo.Text = "";
+                txtCAutoAno.Text = "";
+                txtCAutoPrecio.Text = "";
+                txtCAutoKilometraje.Text = "";
+                txtCAutoColor.Text = "";
+                txtCAutoDetalles.Text = "";
+                loadCars();
+            }
         }
 
         private void btnModificarAuto_Click(object sender, EventArgs e)
@@ -58,7 +70,6 @@ namespace UI
             {
                 CarEntity carEntity = new CarEntity
                 {
-                    Plate = txtModAutoPatente.Text,
                     PricePerDay = Convert.ToDouble(txtModAutoPrecio.Text),
                     Kilometers = Convert.ToInt32(txtModAutoKilometraje.Text),
                     Details = txtModAutoDetalles.Text
@@ -70,6 +81,14 @@ namespace UI
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                txtModAutoPatente.Text = "";
+                txtModAutoPrecio.Text = "";
+                txtModAutoKilometraje.Text = "";
+                txtModAutoDetalles.Text = "";
+                loadCars();
             }
         }
 
@@ -84,16 +103,48 @@ namespace UI
             {
                 MessageBox.Show(ex.Message);
             }
+            finally
+            {
+                txtElimPatente.Text = "";
+                loadCars();
+            }
         }
 
         private void ABMAutos_Load(object sender, EventArgs e)
         {
-
+            loadCars();
         }
 
         private void btnBuscarAuto_Click(object sender, EventArgs e)
         {
+            try
+            {
+                CarEntity carBase = carBusiness.GetCarByPlate(txtModAutoPatente.Text.ToUpper());
+                txtModAutoPrecio.Text = carBase.PricePerDay.ToString();
+                txtModAutoKilometraje.Text = carBase.Kilometers.ToString();
+                txtModAutoDetalles.Text = carBase.Details;
+                MessageBox.Show("Auto encontrado");
+                txtModAutoDetalles.Enabled = true;
+                txtModAutoKilometraje.Enabled = true;
+                txtModAutoPrecio.Enabled = true;
+            }
+            catch (Exception ex)
+            {
 
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                txtModAutoPatente.Text = "";
+            }
+        }
+
+        private void loadCars()
+        {
+            dgvAllCars.DataSource = null;
+            List<CarEntity> cars = carBusiness.GetAllCars();
+            cars = cars.OrderBy(c => c.Plate).ToList();
+            dgvAllCars.DataSource = cars;
         }
     }
 }

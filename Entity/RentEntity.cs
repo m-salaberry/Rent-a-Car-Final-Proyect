@@ -26,6 +26,5 @@ namespace Entity
         public DateTime RentDate { get => rentDate; set => rentDate = value; }
         public DateTime ReturnDate { get => returnDate; set => returnDate = value; }
         public double FinalPrice { get => finalPrice; set => finalPrice = value; }
-        public int CreditCardNum { get => creditCardNum; set => creditCardNum = value; }
     }
 }

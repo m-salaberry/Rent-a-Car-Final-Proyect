@@ -653,3 +653,6 @@ C:\Users\Agus\Desktop\TP prueba\Rent-a-Car-Final-Proyect\UI\obj\Debug\net8.0-win
 C:\Users\Agus\Desktop\TP prueba\Rent-a-Car-Final-Proyect\UI\obj\Debug\net8.0-windows\UI.pdb
 C:\Users\Agus\Desktop\TP prueba\Rent-a-Car-Final-Proyect\UI\obj\Debug\net8.0-windows\UI.genruntimeconfig.cache
 C:\Users\Agus\Desktop\TP prueba\Rent-a-Car-Final-Proyect\UI\obj\Debug\net8.0-windows\ref\UI.dll
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\UI\obj\Debug\net8.0-windows\UI.ABMAutos.resources
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\UI\obj\Debug\net8.0-windows\UI.ABMClientes.resources
+D:\Facultad\2do Año\2do Cuatri\Rent-a-Car-Final-Proyect\UI\obj\Debug\net8.0-windows\UI.ABMSeguro.resources

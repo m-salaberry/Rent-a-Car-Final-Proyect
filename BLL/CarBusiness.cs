@@ -61,7 +61,7 @@ namespace BLL
                     trx.Complete();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw;
             }
@@ -85,7 +85,7 @@ namespace BLL
                     trx.Complete();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw;
             }
@@ -97,7 +97,10 @@ namespace BLL
             {
                 CarEntity carEntity = new CarEntity();
                 carEntity = carData.GetCarByPlate(plateToDelete);
-                if (carEntity == null) { throw new Exception("No se encontró la patente a eliminar"); }
+                if (carEntity == null) 
+                { 
+                    throw new Exception("No se encontró la patente a eliminar"); 
+                }
 
                 using (var trx = new TransactionScope())
                 {
@@ -105,16 +108,38 @@ namespace BLL
                     trx.Complete();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw;
             }
+
         }
         public CarEntity GetCarByPlate(string plateToFind)
         {
             try
             {
-                return carData.GetCarByPlate(plateToFind);
+                if (plateToFind == null)
+                {
+                    throw new Exception("La patente no puede ser nula");
+                }
+                CarEntity carMod = carData.GetCarByPlate(plateToFind);
+                if (carMod == null)
+                {
+                    throw new Exception("No se encontró la patente");
+                }
+                return carMod;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public List<CarEntity> GetAllCars()
+        {
+            try
+            {
+                return carData.ListAllCars();
             }
             catch (Exception)
             {

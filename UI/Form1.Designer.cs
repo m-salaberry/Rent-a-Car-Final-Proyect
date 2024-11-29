@@ -187,9 +187,9 @@
             // dgvAlquileres
             // 
             dgvAlquileres.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAlquileres.Location = new Point(714, 12);
+            dgvAlquileres.Location = new Point(718, 12);
             dgvAlquileres.Name = "dgvAlquileres";
-            dgvAlquileres.Size = new Size(878, 577);
+            dgvAlquileres.Size = new Size(874, 577);
             dgvAlquileres.TabIndex = 1;
             // 
             // groupBox2

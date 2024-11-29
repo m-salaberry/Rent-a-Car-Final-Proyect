@@ -47,7 +47,13 @@ namespace DAL
             {
                 using (AppDbContext appDbContext = getAppDbContext())
                 {
-                    return CarMapper.Map(appDbContext.Cars.Find(plateToFind)!);
+                    Car carToMod = appDbContext.Cars.Find(plateToFind)!;
+                    if (carToMod == null)
+                    {
+                        return null!;
+                    }
+                    CarEntity carEntity = CarMapper.Map(carToMod);
+                    return carEntity;
                 }
             }
             catch (Exception)

@@ -61,9 +61,11 @@
             label1 = new Label();
             txtCAutoMarca = new TextBox();
             txtCAutoPatente = new TextBox();
+            dgvAllCars = new DataGridView();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvAllCars).BeginInit();
             SuspendLayout();
             // 
             // groupBox3
@@ -125,7 +127,7 @@
             // 
             // btnBuscarAuto
             // 
-            btnBuscarAuto.Location = new Point(6, 249);
+            btnBuscarAuto.Location = new Point(6, 65);
             btnBuscarAuto.Name = "btnBuscarAuto";
             btnBuscarAuto.Size = new Size(326, 28);
             btnBuscarAuto.TabIndex = 28;
@@ -136,7 +138,7 @@
             // txtModAutoDetalles
             // 
             txtModAutoDetalles.Enabled = false;
-            txtModAutoDetalles.Location = new Point(6, 169);
+            txtModAutoDetalles.Location = new Point(6, 203);
             txtModAutoDetalles.Multiline = true;
             txtModAutoDetalles.Name = "txtModAutoDetalles";
             txtModAutoDetalles.Size = new Size(326, 76);
@@ -145,7 +147,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(6, 151);
+            label7.Location = new Point(6, 185);
             label7.Name = "label7";
             label7.Size = new Size(48, 15);
             label7.TabIndex = 26;
@@ -154,7 +156,7 @@
             // txtModAutoKilometraje
             // 
             txtModAutoKilometraje.Enabled = false;
-            txtModAutoKilometraje.Location = new Point(6, 125);
+            txtModAutoKilometraje.Location = new Point(6, 159);
             txtModAutoKilometraje.Name = "txtModAutoKilometraje";
             txtModAutoKilometraje.Size = new Size(326, 23);
             txtModAutoKilometraje.TabIndex = 25;
@@ -162,7 +164,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(6, 107);
+            label8.Location = new Point(6, 141);
             label8.Name = "label8";
             label8.Size = new Size(67, 15);
             label8.TabIndex = 24;
@@ -171,7 +173,7 @@
             // txtModAutoPrecio
             // 
             txtModAutoPrecio.Enabled = false;
-            txtModAutoPrecio.Location = new Point(6, 81);
+            txtModAutoPrecio.Location = new Point(6, 115);
             txtModAutoPrecio.Name = "txtModAutoPrecio";
             txtModAutoPrecio.Size = new Size(326, 23);
             txtModAutoPrecio.TabIndex = 23;
@@ -179,7 +181,7 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(6, 63);
+            label13.Location = new Point(6, 97);
             label13.Name = "label13";
             label13.Size = new Size(81, 15);
             label13.TabIndex = 22;
@@ -376,11 +378,20 @@
             txtCAutoPatente.Size = new Size(326, 23);
             txtCAutoPatente.TabIndex = 0;
             // 
+            // dgvAllCars
+            // 
+            dgvAllCars.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvAllCars.Location = new Point(720, 19);
+            dgvAllCars.Name = "dgvAllCars";
+            dgvAllCars.Size = new Size(616, 432);
+            dgvAllCars.TabIndex = 7;
+            // 
             // ABMAutos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(725, 463);
+            ClientSize = new Size(1348, 463);
+            Controls.Add(dgvAllCars);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -393,6 +404,7 @@
             groupBox2.PerformLayout();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvAllCars).EndInit();
             ResumeLayout(false);
         }
 
@@ -431,5 +443,6 @@
         private TextBox txtModAutoPrecio;
         private Label label13;
         private Button btnBuscarAuto;
+        private DataGridView dgvAllCars;
     }
 }

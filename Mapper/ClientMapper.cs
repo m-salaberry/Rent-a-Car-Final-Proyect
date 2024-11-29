@@ -13,28 +13,46 @@ namespace Mapper
 
         public static ClientEntity Map(Client client)
         {
-            return new ClientEntity
+            try
             {
-                Dni = client.Dni,
-                Name = client.Name,
-                Surname = client.Surname,
-                LicenseValidDate = client.LicenseValidDate,
-                QuantityOfRents = client.QuantityOfRents,
-                BlackList = client.BlackList
-            };
+                return new ClientEntity
+                {
+                    Dni = client.Dni,
+                    Name = client.Name,
+                    Surname = client.Surname,
+                    LicenseValidDate = client.LicenseValidDate,
+                    QuantityOfRents = client.QuantityOfRents,
+                    BlackList = client.BlackList
+                };
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
         }
 
         public static Client Map(ClientEntity client)
         {
-            return new Client
+            try
             {
-                Dni = client.Dni,
-                Name = client.Name,
-                Surname = client.Surname,
-                LicenseValidDate = client.LicenseValidDate,
-                QuantityOfRents = client.QuantityOfRents,
-                BlackList = client.BlackList
-            };
+                return new Client
+                {
+                    Dni = client.Dni,
+                    Name = client.Name,
+                    Surname = client.Surname,
+                    LicenseValidDate = client.LicenseValidDate,
+                    QuantityOfRents = client.QuantityOfRents,
+                    BlackList = client.BlackList
+                };
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
         }
 
 

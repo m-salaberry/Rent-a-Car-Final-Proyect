@@ -13,22 +13,40 @@ namespace Mapper
 
         public static InsuranceEntity Map(Insurance insurance)
         {
-            return new InsuranceEntity
+            try
             {
-                Id = insurance.Id,
-                TypeOfInsurance = insurance.TypeOfInsurance,
-                Price = insurance.Price
-            };
+                return new InsuranceEntity
+                {
+                    Id = insurance.Id,
+                    TypeOfInsurance = insurance.TypeOfInsurance,
+                    Price = insurance.Price
+                };
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
         }
 
         public static Insurance Map(InsuranceEntity insurance)
         {
-            return new Insurance
+            try
             {
-                Id = insurance.Id,
-                TypeOfInsurance = insurance.TypeOfInsurance,
-                Price = insurance.Price
-            };
+                return new Insurance
+                {
+                    Id = insurance.Id,
+                    TypeOfInsurance = insurance.TypeOfInsurance,
+                    Price = insurance.Price
+                };
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
         }
 
     }

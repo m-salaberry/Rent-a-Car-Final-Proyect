@@ -38,8 +38,7 @@ namespace Entity.model
         [Required]
         public double FinalPrice { get; set; }
 
-        [Required]
-        public int CreditCardNum { get; set; }
+        
 
 
     }
