@@ -39,17 +39,18 @@ namespace UI
         {
             try
             {
-                var FoundCar = carBusiness.GetCarByPlate(txtNuevoPatente.Text);
+                CarEntity FoundCar = carBusiness.GetCarByPlate(txtNuevoPatente.Text.ToUpper());
+                InsuranceEntity InsuranceSelected = insuranceBusiness.GetInsuranceById(Convert.ToInt32(cmbCrearSeguro.SelectedValue));
+                ClientEntity clientSelected = clientBusiness.GetClientByDni(Convert.ToInt64(txtNuevoDNI.Text));
                 RentEntity rentEntity = new RentEntity
                 {
-                    Client = clientBusiness.GetClientByDni(Convert.ToInt32(txtNuevoDNI.Text)),
+                    Client = clientSelected,
                     Car = FoundCar,
-                    //Insurance = ,
+                    Insurance = InsuranceSelected,
                     RentDate = dtNuevoInicio.Value,
                     ReturnDate = dtCrearFinAlq.Value,
                     FinalPrice = FoundCar.PricePerDay * (dtCrearFinAlq.Value - dtNuevoInicio.Value).Days,
                 };
-                rentBusiness.VerificationRent(rentEntity);
                 rentBusiness.AddRent(rentEntity);
                 MessageBox.Show("Alquiler creado con exito");
                 ActualizarUI();
@@ -64,7 +65,32 @@ namespace UI
                 txtNuevoPatente.Text = "";
                 dtNuevoInicio.Value = DateTime.Now;
                 dtCrearFinAlq.Value = DateTime.Now;
+                loadDgv();
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            loadDgv();
+            loadCmbSeguros();
+        }
+
+        private void loadDgv()
+        {
+            dgvAlquileres.DataSource = null;
+            List<RentEntity> rents = rentBusiness.GetAllRents();
+            rents.OrderBy(x => x.Id).ToList();
+            dgvAlquileres.DataSource = rents;
+        }
+
+        private void loadCmbSeguros()
+        {
+            cmbCrearSeguro.DataSource = null;
+            List<InsuranceEntity> insurances = insuranceBusiness.ListAllInsurances();
+            insurances.OrderBy(x => x.Id).ToList();
+            cmbCrearSeguro.DataSource = insurances;
+            cmbCrearSeguro.DisplayMember = "TypeOfInsurance";
+            cmbCrearSeguro.ValueMember = "Id";
         }
     }
 }

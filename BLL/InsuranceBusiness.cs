@@ -118,6 +118,23 @@ namespace BLL
                 throw;
             }
         }
+
+        public InsuranceEntity GetInsuranceById(int id)
+        {
+            try
+            {
+                InsuranceEntity insurance = insuranceData.GetInsuranceById(id);
+                if (insurance == null)
+                {
+                    throw new Exception("No se encontró el seguro");
+                }
+                return insurance;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
     }
 
 }

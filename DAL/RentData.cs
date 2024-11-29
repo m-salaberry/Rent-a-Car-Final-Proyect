@@ -66,6 +66,9 @@ namespace DAL
                 using (AppDbContext appDbContext = getAppDbContext())
                 {
                     appDbContext.Rents.Add(RentMapper.Map(rent));
+                    appDbContext.Entry(rent.Car).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                    appDbContext.Entry(rent.Client).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                    appDbContext.Entry(rent.Insurance).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
                     appDbContext.SaveChanges();
                 }
             }

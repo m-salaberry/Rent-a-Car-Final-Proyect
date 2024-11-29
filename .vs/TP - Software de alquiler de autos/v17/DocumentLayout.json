@@ -3,64 +3,32 @@
   "WorkspaceRootPath": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\ui\\abmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|solutionrelative:ui\\abmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\ui\\abmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|solutionrelative:ui\\abmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\bll\\clientbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|solutionrelative:bll\\clientbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\ui\\abmautos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|solutionrelative:ui\\abmautos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\ui\\abmautos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|solutionrelative:ui\\abmautos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3FAF8589-6654-451B-B2E0-D5650CCC1B7F}|UI\\UI.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\dal\\clientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|solutionrelative:dal\\clientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\entity\\cliententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|solutionrelative:entity\\cliententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\entity\\model\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|solutionrelative:entity\\model\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\entity\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|solutionrelative:entity\\model\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87E6EE05-D290-4877-A2B7-70500D13941D}|Mapper\\Mapper.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\mapper\\rentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87E6EE05-D290-4877-A2B7-70500D13941D}|Mapper\\Mapper.csproj|solutionrelative:mapper\\rentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\dal\\cardata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|solutionrelative:dal\\cardata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\entity\\rententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B16AB62-4733-4044-9EB3-BFC070537001}|Entity\\Entity.csproj|solutionrelative:entity\\rententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87E6EE05-D290-4877-A2B7-70500D13941D}|Mapper\\Mapper.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\mapper\\insurancemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87E6EE05-D290-4877-A2B7-70500D13941D}|Mapper\\Mapper.csproj|solutionrelative:mapper\\insurancemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\dal\\rentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19747850-1FAE-48E5-B4D5-3A98B945EA00}|DAL\\DAL.csproj|solutionrelative:dal\\rentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87E6EE05-D290-4877-A2B7-70500D13941D}|Mapper\\Mapper.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\mapper\\carmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87E6EE05-D290-4877-A2B7-70500D13941D}|Mapper\\Mapper.csproj|solutionrelative:mapper\\carmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\bll\\insurancebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|solutionrelative:bll\\insurancebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|d:\\facultad\\2do a\u00F1o\\2do cuatri\\rent-a-car-final-proyect\\bll\\rentbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F529FA9-E3AF-48E3-83C8-08D0F97F947A}|BLL\\BLL.csproj|solutionrelative:bll\\rentbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "UI\\Form1.cs",
@@ -82,176 +50,87 @@
               "RelativeToolTip": "UI\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T00:29:24.823Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ABMClientes.cs",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\ABMClientes.cs",
-              "RelativeDocumentMoniker": "UI\\ABMClientes.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\ABMClientes.cs",
-              "RelativeToolTip": "UI\\ABMClientes.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAADwv4YAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T19:16:57.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Car.cs",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\model\\Car.cs",
-              "RelativeDocumentMoniker": "Entity\\model\\Car.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\model\\Car.cs",
-              "RelativeToolTip": "Entity\\model\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:26:46.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ABMAutos.cs [Design]",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\ABMAutos.cs",
-              "RelativeDocumentMoniker": "UI\\ABMAutos.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\ABMAutos.cs [Design]",
-              "RelativeToolTip": "UI\\ABMAutos.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T17:47:27.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ABMClientes.cs [Design]",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\ABMClientes.cs",
-              "RelativeDocumentMoniker": "UI\\ABMClientes.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\ABMClientes.cs [Design]",
-              "RelativeToolTip": "UI\\ABMClientes.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:50:27.298Z",
+              "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "UI\\Form1.cs",
               "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\Form1.cs",
               "RelativeToolTip": "UI\\Form1.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwD0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwC4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T13:59:24.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ABMAutos.cs",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\ABMAutos.cs",
-              "RelativeDocumentMoniker": "UI\\ABMAutos.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\UI\\ABMAutos.cs",
-              "RelativeToolTip": "UI\\ABMAutos.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAJUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:20:39.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClientBusiness.cs",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\ClientBusiness.cs",
-              "RelativeDocumentMoniker": "BLL\\ClientBusiness.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\ClientBusiness.cs",
-              "RelativeToolTip": "BLL\\ClientBusiness.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAqwF4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T12:54:23.351Z",
+              "WhenOpened": "2024-11-29T13:59:24.581Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Client.cs",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\model\\Client.cs",
-              "RelativeDocumentMoniker": "Entity\\model\\Client.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\model\\Client.cs",
-              "RelativeToolTip": "Entity\\model\\Client.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RentEntity.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\RentEntity.cs",
+              "RelativeDocumentMoniker": "Entity\\RentEntity.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\RentEntity.cs",
+              "RelativeToolTip": "Entity\\RentEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T19:59:23.87Z"
+              "WhenOpened": "2024-11-29T21:28:38.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ClientData.cs",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\ClientData.cs",
-              "RelativeDocumentMoniker": "DAL\\ClientData.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\ClientData.cs",
-              "RelativeToolTip": "DAL\\ClientData.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAGUAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "RentData.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\RentData.cs",
+              "RelativeDocumentMoniker": "DAL\\RentData.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\RentData.cs",
+              "RelativeToolTip": "DAL\\RentData.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEYAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:00:52.253Z"
+              "WhenOpened": "2024-11-29T21:27:36.236Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClientEntity.cs",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\ClientEntity.cs",
-              "RelativeDocumentMoniker": "Entity\\ClientEntity.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Entity\\ClientEntity.cs",
-              "RelativeToolTip": "Entity\\ClientEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "RentBusiness.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\RentBusiness.cs",
+              "RelativeDocumentMoniker": "BLL\\RentBusiness.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\RentBusiness.cs",
+              "RelativeToolTip": "BLL\\RentBusiness.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwD0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:15:24.331Z"
+              "WhenOpened": "2024-11-29T21:13:57.148Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
+              "Title": "InsuranceBusiness.cs",
+              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\InsuranceBusiness.cs",
+              "RelativeDocumentMoniker": "BLL\\InsuranceBusiness.cs",
+              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\BLL\\InsuranceBusiness.cs",
+              "RelativeToolTip": "BLL\\InsuranceBusiness.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAA2wHEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:11:44.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RentMapper.cs",
               "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\RentMapper.cs",
               "RelativeDocumentMoniker": "Mapper\\RentMapper.cs",
               "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\RentMapper.cs",
               "RelativeToolTip": "Mapper\\RentMapper.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDEAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:44:09.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CarData.cs",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\CarData.cs",
-              "RelativeDocumentMoniker": "DAL\\CarData.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\DAL\\CarData.cs",
-              "RelativeToolTip": "DAL\\CarData.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAqwEgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T18:08:41.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "InsuranceMapper.cs",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\InsuranceMapper.cs",
-              "RelativeDocumentMoniker": "Mapper\\InsuranceMapper.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\InsuranceMapper.cs",
-              "RelativeToolTip": "Mapper\\InsuranceMapper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:43:37.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CarMapper.cs",
-              "DocumentMoniker": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\CarMapper.cs",
-              "RelativeDocumentMoniker": "Mapper\\CarMapper.cs",
-              "ToolTip": "D:\\Facultad\\2do A\u00F1o\\2do Cuatri\\Rent-a-Car-Final-Proyect\\Mapper\\CarMapper.cs",
-              "RelativeToolTip": "Mapper\\CarMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T17:42:41.007Z"
+              "WhenOpened": "2024-11-29T17:44:09.538Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -110,6 +110,7 @@
             cmbCrearSeguro.Name = "cmbCrearSeguro";
             cmbCrearSeguro.Size = new Size(326, 23);
             cmbCrearSeguro.TabIndex = 10;
+            cmbCrearSeguro.Click += Form1_Load;
             // 
             // label5
             // 
@@ -430,6 +431,7 @@
             Controls.Add(groupBox1);
             Name = "Form1";
             Text = "Rent-a-Car";
+            Load += Form1_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dgvAlquileres).EndInit();
