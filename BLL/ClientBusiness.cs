@@ -4,6 +4,7 @@ using Entity.model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
@@ -50,7 +51,7 @@ namespace BLL
 
         }
 
-        public ClientEntity GetClientByDni(int dniToFind)
+        public ClientEntity GetClientByDni(Int64 dniToFind)
         {
             try
             {
@@ -79,6 +80,43 @@ namespace BLL
                     clientData.ModClient(clientMod);
                     trx.Complete();
                 }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public void DeleteClient(Int64 dni)
+        {
+            try
+            {
+                ClientEntity client = new ClientEntity();
+                client = clientData.GetClientByDni(dni);
+                if (client == null)
+                {
+                    throw new Exception("No se encontró el cliente a eliminar");
+                }
+
+                using (var trx = new TransactionScope())
+                {
+                    clientData.DeleteClient(dni);
+                    trx.Complete();
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public List<ClientEntity> GetAll()
+        {
+            try
+            {
+                return clientData.ListAllClients();
             }
             catch (Exception)
             {

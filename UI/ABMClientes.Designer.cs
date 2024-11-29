@@ -258,6 +258,7 @@
             btnEliminarCliente.TabIndex = 11;
             btnEliminarCliente.Text = "Eliminar Cliente";
             btnEliminarCliente.UseVisualStyleBackColor = true;
+            btnEliminarCliente.Click += btnEliminarCliente_Click_1;
             // 
             // label11
             // 

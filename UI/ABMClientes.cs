@@ -17,6 +17,7 @@ namespace UI
         public ABMClientes()
         {
             InitializeComponent();
+            loadDgv();
         }
         ClientBusiness clientBusiness = new ClientBusiness();
         ClientEntity clientMod = null;
@@ -40,15 +41,23 @@ namespace UI
             {
                 MessageBox.Show(ex.Message);
             }
+            finally
+            {
+                txtNClienteDNI.Text = "";
+                txtNClienteNombre.Text = "";
+                txtNClienteApellido.Text = "";
+                dtNClienteVto.Value = DateTime.Now;
+                loadDgv();
+            }
         }
 
         private void btnSearchClient_Click(object sender, EventArgs e)
         {
             try
             {
-                ClientEntity cliente = clientBusiness.GetClientByDni(Convert.ToInt32(txtModClienteDNI.Text));
+                ClientEntity cliente = clientBusiness.GetClientByDni(Convert.ToInt64(txtModClienteDNI.Text));
                 dtModificarVto.Value = cliente.LicenseValidDate;
-                cmbModCliente.Text = cliente.BlackList.ToString();
+                cmbModCliente.ValueMember = cliente.BlackList.ToString();
                 MessageBox.Show("Cliente encontrado");
                 dtModificarVto.Enabled = true;
                 cmbModCliente.Enabled = true;
@@ -80,6 +89,49 @@ namespace UI
                 dtModificarVto.Enabled = false;
                 cmbModCliente.Text = "";
                 cmbModCliente.Enabled = false;
+                loadDgv();
+            }
+        }
+
+        private void btnEliminarCliente_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void loadDgv()
+        {
+            dgvClients.DataSource = null;
+            List<ClientEntity> clientes = clientBusiness.GetAll();
+            clientes.OrderBy(x => x.Dni).ToList();
+            dgvClients.DataSource = clientes;
+        }
+        private void ABMClientes_Load(object sender, EventArgs e)
+        {
+            loadDgv();
+
+        }
+
+        private void btnEliminarCliente_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                clientBusiness.DeleteClient(Convert.ToInt64(txtElimClienteDNI.Text));
+                MessageBox.Show("El cliente fue borrado de la base de datos");
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                txtElimClienteDNI.Text = "";
+                loadDgv();
             }
         }
     }

@@ -44,7 +44,7 @@ namespace DAL
             }
         }
 
-        public ClientEntity GetClientByDni(int dniToFind)
+        public ClientEntity GetClientByDni(Int64 dniToFind)
         {
             try
             {
@@ -99,7 +99,7 @@ namespace DAL
             }
         }
 
-        public void DeleteClient(int dniToDelete)
+        public void DeleteClient(Int64 dniToDelete)
         {
             try
             {
