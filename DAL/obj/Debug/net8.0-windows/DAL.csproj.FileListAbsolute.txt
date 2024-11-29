@@ -50,3 +50,23 @@ C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-wi
 C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.pdb
 C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.genruntimeconfig.cache
 C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\ref\DAL.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\DAL.deps.json
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\DAL.runtimeconfig.json
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\DAL.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\DAL.pdb
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\Entity.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\Mapper.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\Entity.pdb
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\bin\Debug\net8.0-windows\Mapper.pdb
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.csproj.AssemblyReference.cache
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.AssemblyInfoInputs.cache
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.AssemblyInfo.cs
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.sourcelink.json
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.csproj.Up2Date
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\refint\DAL.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.pdb
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\DAL.genruntimeconfig.cache
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\DAL\obj\Debug\net8.0-windows\ref\DAL.dll

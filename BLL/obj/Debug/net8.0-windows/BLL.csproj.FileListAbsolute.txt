@@ -50,3 +50,23 @@ C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-wi
 C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\refint\BLL.dll
 C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.pdb
 C:\Users\super\Documents\GitHub\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\ref\BLL.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\BLL.deps.json
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\BLL.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\BLL.pdb
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\DAL.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Entity.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Mapper.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\DAL.pdb
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Entity.pdb
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\bin\Debug\net8.0-windows\Mapper.pdb
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.AssemblyReference.cache
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.AssemblyInfoInputs.cache
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.AssemblyInfo.cs
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.sourcelink.json
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.csproj.Up2Date
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\refint\BLL.dll
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\BLL.pdb
+C:\Users\Agus\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\UAI\2ndo\DESARROLLO Y ARQUITECTURA DE SOFTWARE\TP Final\Rent-a-Car-Final-Proyect\BLL\obj\Debug\net8.0-windows\ref\BLL.dll

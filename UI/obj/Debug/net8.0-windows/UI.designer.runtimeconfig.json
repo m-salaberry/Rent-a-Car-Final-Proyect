@@ -12,13 +12,19 @@
       }
     ],
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\noeli\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\noeli\\.nuget\\packages",
+=======
+      "C:\\Users\\Agus\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Agus\\.nuget\\packages",
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
       "System.Reflection.NullabilityInfoContext.IsSupported": true,
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+      "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }

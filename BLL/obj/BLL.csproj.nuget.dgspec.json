@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\noeli\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\BLL\\obj\\",
+=======
+    "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Agus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\BLL\\obj\\",
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\noeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Agus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +51,19 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj": {
                 "projectPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj"
               },
               "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
                 "projectPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+=======
+              "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
               }
             }
           }
@@ -50,8 +76,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -75,6 +102,7 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -87,12 +115,30 @@
         "projectPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\noeli\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\DAL\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Agus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\DAL\\obj\\",
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\noeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Agus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -108,11 +154,19 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
                 "projectPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
               },
               "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj": {
                 "projectPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj"
+=======
+              "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+              },
+              "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj": {
+                "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj"
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
               }
             }
           }
@@ -125,8 +179,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -180,6 +235,7 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -192,12 +248,30 @@
         "projectPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\noeli\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Entity\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj",
+        "projectName": "Entity",
+        "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\Agus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\obj\\",
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\noeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Agus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -223,8 +297,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -248,6 +323,7 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -260,12 +336,30 @@
         "projectPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj",
         "packagesPath": "C:\\Users\\noeli\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Mapper\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj",
+        "projectName": "Mapper",
+        "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Mapper\\Mapper.csproj",
+        "packagesPath": "C:\\Users\\Agus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Mapper\\obj\\",
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\noeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Agus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -281,8 +375,13 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
                 "projectPath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+=======
+              "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj"
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
               }
             }
           }
@@ -295,8 +394,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -320,7 +420,11 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
         }
       }
     }

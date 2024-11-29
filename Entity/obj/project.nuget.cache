@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "D+TloVSdXeY=",
   "success": true,
   "projectFilePath": "C:\\Users\\noeli\\OneDrive\\Documentos\\GitHub\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj",
+=======
+  "dgSpecHash": "ZHnZOuGDLyM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Agus\\OneDrive - UNIVERSIDAD ABIERTA INTERAMERICANA\\UAI\\2ndo\\DESARROLLO Y ARQUITECTURA DE SOFTWARE\\TP Final\\Rent-a-Car-Final-Proyect\\Entity\\Entity.csproj",
+>>>>>>> d62d92720efbe4c6c7747dbebd41198b335afc9a
   "expectedPackageFiles": [],
   "logs": []
 }
