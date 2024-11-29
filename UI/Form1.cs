@@ -8,6 +8,7 @@ namespace UI
         public Form1()
         {
             InitializeComponent();
+            loadDgv();
         }
         ClientBusiness clientBusiness = new ClientBusiness();
         CarBusiness carBusiness = new CarBusiness();
@@ -31,10 +32,7 @@ namespace UI
             aBMSeguro.Show();
         }
 
-        public void ActualizarUI()
-        {
-
-        }
+       
         private void btnCrearAlquiler_Click(object sender, EventArgs e)
         {
             try
@@ -53,7 +51,7 @@ namespace UI
                 };
                 rentBusiness.AddRent(rentEntity);
                 MessageBox.Show("Alquiler creado con exito");
-                ActualizarUI();
+                
             }
             catch (Exception ex)
             {
@@ -78,9 +76,10 @@ namespace UI
         private void loadDgv()
         {
             dgvAlquileres.DataSource = null;
-            List<RentEntity> rents = rentBusiness.GetAllRents();
-            rents.OrderBy(x => x.Id).ToList();
-            dgvAlquileres.DataSource = rents;
+            dgvAlquileres.DataSource = rentBusiness.GetAllRents();
+            dgvAlquileres.Columns["ClientDni"].Visible = false;
+            dgvAlquileres.Columns["CarPlate"].Visible = false;
+            dgvAlquileres.Columns["InsuranceId"].Visible = false;
         }
 
         private void loadCmbSeguros()

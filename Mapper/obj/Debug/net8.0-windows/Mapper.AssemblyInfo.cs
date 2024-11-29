@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ee905eafe86edbfc3f1bcc64965b632447c6980")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+912135bd6fa3b7b770a1a133b1b512f80c9a13d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,7 @@
 ﻿using Entity;
 using Entity.model;
 using Mapper;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,7 +31,7 @@ namespace DAL
                     List<Rent> rentDb = appDbContext.Rents.ToList();
                     foreach (Rent rent in rentDb)
                     {
-                        rentList.Add(RentMapper.Map(rent));
+                        appDbContext.Rents.Include(a => a.Car).Include(a => a.Client).Include(a => a.Insurance).Select (a => RentMapper.Map(a)).ToList();
                     }
                     return rentList;
                 }
@@ -65,10 +66,11 @@ namespace DAL
             {
                 using (AppDbContext appDbContext = getAppDbContext())
                 {
-                    appDbContext.Rents.Add(RentMapper.Map(rent));
-                    appDbContext.Entry(rent.Car).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
-                    appDbContext.Entry(rent.Client).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
-                    appDbContext.Entry(rent.Insurance).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                    Rent rentToAdd = RentMapper.Map(rent);
+                    appDbContext.Entry(rentToAdd.Car).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                    appDbContext.Entry(rentToAdd.Client).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                    appDbContext.Entry(rentToAdd.Insurance).State = Microsoft.EntityFrameworkCore.EntityState.Unchanged;
+                    appDbContext.Rents.Add(rentToAdd);
                     appDbContext.SaveChanges();
                 }
             }
