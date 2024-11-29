@@ -25,6 +25,7 @@ namespace UI
         }
 
         CarBusiness carBusiness = new CarBusiness();
+        CarEntity carMod = new CarEntity();
 
         private void btnCrearAuto_Click(object sender, EventArgs e)
         {
@@ -68,14 +69,11 @@ namespace UI
         {
             try
             {
-                CarEntity carEntity = new CarEntity
-                {
-                    PricePerDay = Convert.ToDouble(txtModAutoPrecio.Text),
-                    Kilometers = Convert.ToInt32(txtModAutoKilometraje.Text),
-                    Details = txtModAutoDetalles.Text
-                };
+                carMod.PricePerDay = Convert.ToDouble(txtModAutoPrecio.Text);
+                carMod.Kilometers = Convert.ToInt32(txtModAutoKilometraje.Text);
+                carMod.Details = txtModAutoDetalles.Text;
 
-                carBusiness.ModCar(carEntity);
+                carBusiness.ModCar(carMod);
                 MessageBox.Show("La modificación del auto fue exitosa");
             }
             catch (Exception ex)
@@ -84,10 +82,14 @@ namespace UI
             }
             finally
             {
+                carMod = null;
                 txtModAutoPatente.Text = "";
                 txtModAutoPrecio.Text = "";
+                txtModAutoPrecio.Enabled = false;
                 txtModAutoKilometraje.Text = "";
+                txtModAutoKilometraje.Enabled = false;
                 txtModAutoDetalles.Text = "";
+                txtModAutoDetalles.Enabled = false;
                 loadCars();
             }
         }
@@ -119,10 +121,10 @@ namespace UI
         {
             try
             {
-                CarEntity carBase = carBusiness.GetCarByPlate(txtModAutoPatente.Text.ToUpper());
-                txtModAutoPrecio.Text = carBase.PricePerDay.ToString();
-                txtModAutoKilometraje.Text = carBase.Kilometers.ToString();
-                txtModAutoDetalles.Text = carBase.Details;
+                carMod = carBusiness.GetCarByPlate(txtModAutoPatente.Text.ToUpper());
+                txtModAutoPrecio.Text = carMod.PricePerDay.ToString();
+                txtModAutoKilometraje.Text = carMod.Kilometers.ToString();
+                txtModAutoDetalles.Text = carMod.Details;
                 MessageBox.Show("Auto encontrado");
                 txtModAutoDetalles.Enabled = true;
                 txtModAutoKilometraje.Enabled = true;

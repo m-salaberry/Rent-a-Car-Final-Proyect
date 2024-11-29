@@ -33,8 +33,7 @@ namespace DAL.Migrations
                 name: "Clients",
                 columns: table => new
                 {
-                    Dni = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Dni = table.Column<long>(type: "bigint", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Surname = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LicenseValidDate = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -66,13 +65,12 @@ namespace DAL.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    IdClient = table.Column<int>(type: "int", nullable: false),
+                    IdClient = table.Column<long>(type: "bigint", nullable: false),
                     Plate = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     IdInsurance = table.Column<int>(type: "int", nullable: false),
                     RentDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ReturnDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    FinalPrice = table.Column<double>(type: "float", nullable: false),
-                    CreditCardNum = table.Column<int>(type: "int", nullable: false)
+                    FinalPrice = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
                 {

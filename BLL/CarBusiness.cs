@@ -20,7 +20,7 @@ namespace BLL
             {
                 using (var trx = new TransactionScope())
                 {
-                    if (car.Plate.Length < 6 || car.Plate.Length > 7)
+                    if (car.Plate.Length != 6 && car.Plate.Length != 7)
                     {
                         throw new Exception("La patente debe tener entre 6 y 7 caracteres");
                     }
@@ -32,9 +32,9 @@ namespace BLL
                     {
                         throw new Exception("Debe ingresar detalles correctamente, superando los 5 caracteres");
                     }
-                    if (car.Model.Length < 4)
+                    if (car.Model.Length < 2)
                     {
-                        throw new Exception("El nombre del modelo debe tener un mínimo de 4 caracteres");
+                        throw new Exception("El nombre del modelo debe tener un mínimo de 2 caracteres");
                     }
                     if (car.Brand.Length < 3)
                     {
@@ -74,10 +74,22 @@ namespace BLL
                 CarEntity car = new CarEntity();
                 car = carData.GetCarByPlate(carMod.Plate);
 
-                if (car.Plate.Length < 6 || car.Plate.Length > 7) { throw new Exception("La patente debe tener entre 6 y 7 caracteres"); }
-                if (car.PricePerDay <= 0) { throw new Exception("El precio por día debe ser mayor a $0"); }
-                if (car.Details.Length < 5) { throw new Exception("Debe ingresar detalles correctamente, superando los 5 caracteres"); }
-                if (car.Kilometers < 0) { throw new Exception("Los kilómetros del auto deben ser mayor a 0"); }
+                if (car.Plate.Length != 6 && car.Plate.Length != 7) 
+                { 
+                    throw new Exception("La patente debe tener entre 6 y 7 caracteres"); 
+                }
+                if (car.PricePerDay <= 0) 
+                { 
+                    throw new Exception("El precio por día debe ser mayor a $0"); 
+                }
+                if (car.Details.Length < 5) 
+                { 
+                    throw new Exception("Debe ingresar detalles correctamente, superando los 5 caracteres"); 
+                }
+                if (car.Kilometers < 0) 
+                { 
+                    throw new Exception("Los kilómetros del auto deben ser mayor a 0"); 
+                }
 
                 using (var trx = new TransactionScope())
                 {
@@ -122,12 +134,12 @@ namespace BLL
                 {
                     throw new Exception("La patente no puede ser nula");
                 }
-                CarEntity carMod = carData.GetCarByPlate(plateToFind);
-                if (carMod == null)
+                CarEntity car = carData.GetCarByPlate(plateToFind);
+                if (car == null)
                 {
                     throw new Exception("No se encontró la patente");
                 }
-                return carMod;
+                return car;
             }
             catch (Exception)
             {

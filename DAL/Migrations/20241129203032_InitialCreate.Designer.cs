@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DAL.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241129174511_ClassChanges")]
-    partial class ClassChanges
+    [Migration("20241129203032_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -62,11 +62,8 @@ namespace DAL.Migrations
 
             modelBuilder.Entity("Entity.model.Client", b =>
                 {
-                    b.Property<int>("Dni")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Dni"));
+                    b.Property<long>("Dni")
+                        .HasColumnType("bigint");
 
                     b.Property<bool>("BlackList")
                         .HasColumnType("bit");
@@ -118,14 +115,11 @@ namespace DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CreditCardNum")
-                        .HasColumnType("int");
-
                     b.Property<double>("FinalPrice")
                         .HasColumnType("float");
 
-                    b.Property<int>("IdClient")
-                        .HasColumnType("int");
+                    b.Property<long>("IdClient")
+                        .HasColumnType("bigint");
 
                     b.Property<int>("IdInsurance")
                         .HasColumnType("int");

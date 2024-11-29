@@ -22,7 +22,7 @@ namespace Mapper
                     Surname = client.Surname,
                     LicenseValidDate = client.LicenseValidDate,
                     QuantityOfRents = client.QuantityOfRents,
-                    BlackList = client.BlackList
+                    BlackList = Convert.ToBoolean(client.BlackList)
                 };
             }
             catch (Exception)
@@ -44,7 +44,7 @@ namespace Mapper
                     Surname = client.Surname,
                     LicenseValidDate = client.LicenseValidDate,
                     QuantityOfRents = client.QuantityOfRents,
-                    BlackList = client.BlackList
+                    BlackList = Convert.ToBoolean(client.BlackList)
                 };
             }
             catch (Exception)

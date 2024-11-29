@@ -12,7 +12,8 @@ namespace Entity.model
     {
 
         [Key]
-        public int Dni { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public long Dni { get; set; }
 
         [Required]
         public string Name { get; set; }

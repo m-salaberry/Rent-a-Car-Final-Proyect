@@ -1,5 +1,6 @@
 ﻿using DAL;
 using Entity;
+using Entity.model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,25 +27,23 @@ namespace BLL
                     {
                         throw new Exception("El nombre debe tener como minimo 3 caracteres");
                     }
-                    if (client.Surname.Length < 3)
+                    if (client.Surname.Length < 2)
                     {
                         throw new Exception("El apellido debe tener como minimo 2 caracteres");
                     }
-                    if (client.LicenseValidDate < DateTime.Now)
+                    if (client.LicenseValidDate <= DateTime.Now)
                     {
                         throw new Exception("La licencia de conducir no puede estar vencida");
                     }
-                    if (client.BlackList == null)
-                    {
-                        throw new Exception("'Habilitado' no puede estar vacio");
-                    }
+                    client.QuantityOfRents = 0;
+                    client.BlackList = false;
 
                     clientData.AddClient(client);
                     trx.Complete();
                 }
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 throw;
             }
@@ -59,6 +58,31 @@ namespace BLL
             }
             catch (Exception)
             {
+                throw;
+            }
+        }
+
+        public void ModClient(ClientEntity clientMod)
+        {
+            try
+            {
+                if (clientMod.LicenseValidDate < DateTime.Now)
+                {
+                    throw new Exception("La licencia de conducir no puede estar vencida");
+                }
+                if(clientMod.BlackList == null)
+                {
+                    throw new Exception("Debe seleccionar si el cliente esta en la lista negra");
+                }
+                using (var trx = new TransactionScope())
+                {
+                    clientData.ModClient(clientMod);
+                    trx.Complete();
+                }
+            }
+            catch (Exception)
+            {
+
                 throw;
             }
         }

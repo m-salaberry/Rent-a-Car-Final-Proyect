@@ -17,7 +17,6 @@ namespace Entity
         private DateTime rentDate;
         private DateTime returnDate;
         private double finalPrice;
-        private int creditCardNum;
 
         public int Id { get => id; set => id = value; }
         public ClientEntity Client { get => client; set => client = value; }

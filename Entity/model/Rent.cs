@@ -16,7 +16,7 @@ namespace Entity.model
         public int Id { get; set; }
 
         [ForeignKey("Client")]
-        public int IdClient { get; set; }
+        public long IdClient { get; set; }
 
         public Client Client { get; set; }
 
