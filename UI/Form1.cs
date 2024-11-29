@@ -98,12 +98,38 @@ namespace UI
             {
                 rentBusiness.DeleteRent(textBox1.Text, Convert.ToInt32(txtDniCancelar.Text));
                 MessageBox.Show("Alquiler eliminado con exito");
-                loadDgv();
+                
             }
             catch (Exception ex)
             {
 
                 MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                textBox1.Text = "";
+                txtDniCancelar.Text = "";
+                loadDgv();
+            }
+        }
+
+        private void btnModificarAlquiler_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                rentBusiness.ModRent(Convert.ToInt32(txtModificarId.Text), Convert.ToDateTime(dateTimePicker1.Value));
+                MessageBox.Show("Alquiler modificado con exito");
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                txtModificarId.Text = "";
+                dtNuevoInicio.Value = DateTime.Now;
+                loadDgv();
             }
         }
     }

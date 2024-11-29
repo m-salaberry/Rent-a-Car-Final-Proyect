@@ -50,7 +50,20 @@ namespace DAL
             {
                 using (AppDbContext appDbContext = getAppDbContext())
                 {
-                    return RentMapper.Map(appDbContext.Rents.Find(idToFind)!);
+                    RentEntity rentToMod = appDbContext.Rents
+                    .Include(a => a.Car)
+                    .Include(a => a.Client)
+                    .Include(a => a.Insurance)
+                    .Where(a => a.Id == idToFind) // Filtro basado en el ID
+                    .Select(a => RentMapper.Map(a))
+                    .FirstOrDefault()!;
+
+                    if (rentToMod == null)
+                    {
+                        return null!;
+                    }
+
+                    return rentToMod;
                 }
             }
             catch (Exception)

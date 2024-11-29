@@ -45,12 +45,12 @@
             btnModificarAlquiler = new Button();
             dateTimePicker1 = new DateTimePicker();
             label7 = new Label();
-            dateTimePicker2 = new DateTimePicker();
-            label8 = new Label();
             label9 = new Label();
-            txtModificarPatente = new TextBox();
+            txtModificarId = new TextBox();
             groupBox3 = new GroupBox();
+            label6 = new Label();
             button1 = new Button();
+            txtDniCancelar = new TextBox();
             label11 = new Label();
             textBox1 = new TextBox();
             groupBox4 = new GroupBox();
@@ -61,8 +61,6 @@
             textBox3 = new TextBox();
             textBox2 = new TextBox();
             btnBuscar = new Button();
-            label6 = new Label();
-            txtDniCancelar = new TextBox();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvAlquileres).BeginInit();
             groupBox2.SuspendLayout();
@@ -196,29 +194,28 @@
             groupBox2.Controls.Add(btnModificarAlquiler);
             groupBox2.Controls.Add(dateTimePicker1);
             groupBox2.Controls.Add(label7);
-            groupBox2.Controls.Add(dateTimePicker2);
-            groupBox2.Controls.Add(label8);
             groupBox2.Controls.Add(label9);
-            groupBox2.Controls.Add(txtModificarPatente);
+            groupBox2.Controls.Add(txtModificarId);
             groupBox2.Location = new Point(12, 355);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(347, 234);
             groupBox2.TabIndex = 2;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Modificar Alquiler";
+            groupBox2.Text = "Extender Alquiler";
             // 
             // btnModificarAlquiler
             // 
-            btnModificarAlquiler.Location = new Point(6, 174);
+            btnModificarAlquiler.Location = new Point(6, 162);
             btnModificarAlquiler.Name = "btnModificarAlquiler";
             btnModificarAlquiler.Size = new Size(326, 48);
             btnModificarAlquiler.TabIndex = 11;
             btnModificarAlquiler.Text = "Modificar Alquiler";
             btnModificarAlquiler.UseVisualStyleBackColor = true;
+            btnModificarAlquiler.Click += btnModificarAlquiler_Click;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(6, 138);
+            dateTimePicker1.Location = new Point(6, 104);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(326, 23);
             dateTimePicker1.TabIndex = 8;
@@ -226,43 +223,27 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(6, 120);
+            label7.Location = new Point(6, 86);
             label7.Name = "label7";
             label7.Size = new Size(101, 15);
             label7.TabIndex = 7;
             label7.Text = "Fecha Fin Alquiler";
-            // 
-            // dateTimePicker2
-            // 
-            dateTimePicker2.Location = new Point(6, 90);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(326, 23);
-            dateTimePicker2.TabIndex = 6;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(6, 72);
-            label8.Name = "label8";
-            label8.Size = new Size(114, 15);
-            label8.TabIndex = 5;
-            label8.Text = "Fecha Inicio Alquiler";
             // 
             // label9
             // 
             label9.AutoSize = true;
             label9.Location = new Point(6, 24);
             label9.Name = "label9";
-            label9.Size = new Size(149, 15);
+            label9.Size = new Size(81, 15);
             label9.TabIndex = 4;
-            label9.Text = "Patente Vehiculo Alquilado";
+            label9.Text = "ID del Alquiler";
             // 
-            // txtModificarPatente
+            // txtModificarId
             // 
-            txtModificarPatente.Location = new Point(6, 42);
-            txtModificarPatente.Name = "txtModificarPatente";
-            txtModificarPatente.Size = new Size(326, 23);
-            txtModificarPatente.TabIndex = 1;
+            txtModificarId.Location = new Point(6, 42);
+            txtModificarId.Name = "txtModificarId";
+            txtModificarId.Size = new Size(326, 23);
+            txtModificarId.TabIndex = 1;
             // 
             // groupBox3
             // 
@@ -278,6 +259,15 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Cancelar Alquiler";
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(6, 95);
+            label6.Name = "label6";
+            label6.Size = new Size(67, 15);
+            label6.TabIndex = 13;
+            label6.Text = "DNI Cliente";
+            // 
             // button1
             // 
             button1.Location = new Point(6, 174);
@@ -287,6 +277,13 @@
             button1.Text = "Cancelar Alquiler";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            // 
+            // txtDniCancelar
+            // 
+            txtDniCancelar.Location = new Point(6, 113);
+            txtDniCancelar.Name = "txtDniCancelar";
+            txtDniCancelar.Size = new Size(326, 23);
+            txtDniCancelar.TabIndex = 12;
             // 
             // label11
             // 
@@ -383,22 +380,6 @@
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(6, 95);
-            label6.Name = "label6";
-            label6.Size = new Size(67, 15);
-            label6.TabIndex = 13;
-            label6.Text = "DNI Cliente";
-            // 
-            // txtDniCancelar
-            // 
-            txtDniCancelar.Location = new Point(6, 113);
-            txtDniCancelar.Name = "txtDniCancelar";
-            txtDniCancelar.Size = new Size(326, 23);
-            txtDniCancelar.TabIndex = 12;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -445,10 +426,8 @@
         private Button btnModificarAlquiler;
         private DateTimePicker dateTimePicker1;
         private Label label7;
-        private DateTimePicker dateTimePicker2;
-        private Label label8;
         private Label label9;
-        private TextBox txtModificarPatente;
+        private TextBox txtModificarId;
         private GroupBox groupBox3;
         private Button button1;
         private Label label11;

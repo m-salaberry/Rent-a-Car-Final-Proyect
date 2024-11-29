@@ -80,8 +80,7 @@ namespace BLL
                     throw new Exception("Patente no valida.");
                 }
                 List<RentEntity> rents = GetAllRents();
-                MessageBox.Show(rents.Count.ToString());
-                RentEntity rentFound = rents.Find(i => i.CarPlate == plate && i.ClientDni == dni);
+                RentEntity rentFound = rents.Find(i => i.CarPlate == plate && i.ClientDni == dni)!;
                 if (rentFound == null)
                 {
                     throw new Exception("No se encontro el alquiler a eliminar.");
@@ -97,5 +96,32 @@ namespace BLL
                 throw;
             }
         }
+
+        public void ModRent(int idMod, DateTime fExtension)
+        {
+
+           try
+            {
+                RentEntity rent = rentData.GetRentById(idMod);
+                if(rent == null)
+                {
+                    throw new Exception("Id no valido");
+                }
+                if(fExtension < rent.ReturnDate)
+                {
+                    throw new Exception("La fecha de extension no puede ser previa a la fecha de retorno original");
+                }
+                rent.ReturnDate = fExtension;
+                using (var trx = new System.Transactions.TransactionScope())
+                {
+                    rentData.ModRent(rent);
+                    trx.Complete();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }}
     }
-}
+
