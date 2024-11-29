@@ -31,7 +31,8 @@ namespace DAL
                     List<Rent> rentDb = appDbContext.Rents.ToList();
                     foreach (Rent rent in rentDb)
                     {
-                        appDbContext.Rents.Include(a => a.Car).Include(a => a.Client).Include(a => a.Insurance).Select (a => RentMapper.Map(a)).ToList();
+                        rentList.Add(RentMapper.Map(rent));
+                        //appDbContext.Rents.Include(a => a.Car).Include(a => a.Client).Include(a => a.Insurance).Select (a => RentMapper.Map(a)).ToList();
                     }
                     return rentList;
                 }
@@ -103,13 +104,13 @@ namespace DAL
             }
         }
 
-        public void DeleteRent(int id)
+        public void DeleteRent(RentEntity rent)
         {
             try
             {
                 using (AppDbContext appDbContext = getAppDbContext())
                 {
-                    Rent rentDb = appDbContext.Rents.Find(id)!;
+                    Rent rentDb = appDbContext.Rents.Find(rent)!;
                     appDbContext.Rents.Remove(rentDb);
                     appDbContext.SaveChanges();
                 }

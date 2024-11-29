@@ -70,5 +70,32 @@ namespace BLL
                 throw;
             }
         }
+
+        public void DeleteRent(string plate, int dni)
+        {
+            try
+            {
+                if (plate == null)
+                {
+                    throw new Exception("Patente no valida.");
+                }
+                List<RentEntity> rents = GetAllRents();
+                MessageBox.Show(rents.Count.ToString());
+                RentEntity rentFound = rents.Find(i => i.CarPlate == plate && i.ClientDni == dni);
+                if (rentFound == null)
+                {
+                    throw new Exception("No se encontro el alquiler a eliminar.");
+                }
+                using (var trx = new System.Transactions.TransactionScope())
+                {
+                    rentData.DeleteRent(rentFound);
+                    trx.Complete();
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }

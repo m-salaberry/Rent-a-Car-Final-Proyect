@@ -51,10 +51,6 @@
             txtModificarPatente = new TextBox();
             groupBox3 = new GroupBox();
             button1 = new Button();
-            dateTimePicker3 = new DateTimePicker();
-            label6 = new Label();
-            dateTimePicker4 = new DateTimePicker();
-            label10 = new Label();
             label11 = new Label();
             textBox1 = new TextBox();
             groupBox4 = new GroupBox();
@@ -65,6 +61,8 @@
             textBox3 = new TextBox();
             textBox2 = new TextBox();
             btnBuscar = new Button();
+            label6 = new Label();
+            txtDniCancelar = new TextBox();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvAlquileres).BeginInit();
             groupBox2.SuspendLayout();
@@ -268,11 +266,9 @@
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(button1);
-            groupBox3.Controls.Add(dateTimePicker3);
             groupBox3.Controls.Add(label6);
-            groupBox3.Controls.Add(dateTimePicker4);
-            groupBox3.Controls.Add(label10);
+            groupBox3.Controls.Add(button1);
+            groupBox3.Controls.Add(txtDniCancelar);
             groupBox3.Controls.Add(label11);
             groupBox3.Controls.Add(textBox1);
             groupBox3.Location = new Point(365, 12);
@@ -288,40 +284,9 @@
             button1.Name = "button1";
             button1.Size = new Size(326, 48);
             button1.TabIndex = 11;
-            button1.Text = "Modificar Alquiler";
+            button1.Text = "Cancelar Alquiler";
             button1.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePicker3
-            // 
-            dateTimePicker3.Location = new Point(6, 136);
-            dateTimePicker3.Name = "dateTimePicker3";
-            dateTimePicker3.Size = new Size(326, 23);
-            dateTimePicker3.TabIndex = 8;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(6, 118);
-            label6.Name = "label6";
-            label6.Size = new Size(101, 15);
-            label6.TabIndex = 7;
-            label6.Text = "Fecha Fin Alquiler";
-            // 
-            // dateTimePicker4
-            // 
-            dateTimePicker4.Location = new Point(6, 88);
-            dateTimePicker4.Name = "dateTimePicker4";
-            dateTimePicker4.Size = new Size(326, 23);
-            dateTimePicker4.TabIndex = 6;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Location = new Point(6, 70);
-            label10.Name = "label10";
-            label10.Size = new Size(114, 15);
-            label10.TabIndex = 5;
-            label10.Text = "Fecha Inicio Alquiler";
+            button1.Click += button1_Click;
             // 
             // label11
             // 
@@ -418,11 +383,27 @@
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(6, 95);
+            label6.Name = "label6";
+            label6.Size = new Size(67, 15);
+            label6.TabIndex = 13;
+            label6.Text = "DNI Cliente";
+            // 
+            // txtDniCancelar
+            // 
+            txtDniCancelar.Location = new Point(6, 113);
+            txtDniCancelar.Name = "txtDniCancelar";
+            txtDniCancelar.Size = new Size(326, 23);
+            txtDniCancelar.TabIndex = 12;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1604, 600);
+            ClientSize = new Size(1370, 600);
             Controls.Add(groupBox5);
             Controls.Add(groupBox4);
             Controls.Add(groupBox3);
@@ -470,10 +451,6 @@
         private TextBox txtModificarPatente;
         private GroupBox groupBox3;
         private Button button1;
-        private DateTimePicker dateTimePicker3;
-        private Label label6;
-        private DateTimePicker dateTimePicker4;
-        private Label label10;
         private Label label11;
         private TextBox textBox1;
         private GroupBox groupBox4;
@@ -484,5 +461,7 @@
         private TextBox textBox3;
         private TextBox textBox2;
         private Button btnBuscar;
+        private Label label6;
+        private TextBox txtDniCancelar;
     }
 }

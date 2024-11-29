@@ -32,7 +32,7 @@ namespace UI
             aBMSeguro.Show();
         }
 
-       
+
         private void btnCrearAlquiler_Click(object sender, EventArgs e)
         {
             try
@@ -51,7 +51,7 @@ namespace UI
                 };
                 rentBusiness.AddRent(rentEntity);
                 MessageBox.Show("Alquiler creado con exito");
-                
+
             }
             catch (Exception ex)
             {
@@ -77,9 +77,9 @@ namespace UI
         {
             dgvAlquileres.DataSource = null;
             dgvAlquileres.DataSource = rentBusiness.GetAllRents();
-            dgvAlquileres.Columns["ClientDni"].Visible = false;
-            dgvAlquileres.Columns["CarPlate"].Visible = false;
-            dgvAlquileres.Columns["InsuranceId"].Visible = false;
+            dgvAlquileres.Columns["Client"].Visible = false;
+            dgvAlquileres.Columns["Car"].Visible = false;
+            dgvAlquileres.Columns["Insurance"].Visible = false;
         }
 
         private void loadCmbSeguros()
@@ -90,6 +90,21 @@ namespace UI
             cmbCrearSeguro.DataSource = insurances;
             cmbCrearSeguro.DisplayMember = "TypeOfInsurance";
             cmbCrearSeguro.ValueMember = "Id";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                rentBusiness.DeleteRent(textBox1.Text, Convert.ToInt32(txtDniCancelar.Text));
+                MessageBox.Show("Alquiler eliminado con exito");
+                loadDgv();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
